@@ -102,6 +102,5 @@ nav:
       - user_documentation/install/index.md
     - Functions:
       - user_documentation/functions/index.md
-      - user_documentation/functions/code_example.md
     - Tests:
       - user_documentation/test/index.md

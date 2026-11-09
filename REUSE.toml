@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: MIT
 
 version = 1
-SPDX-PackageName = "super-repo"
+SPDX-PackageName = "energy-technology-catalogs"
 SPDX-PackageSupplier = "Ludwig Hülk <https://github.com/Ludee>"
-SPDX-PackageDownloadLocation = "https://github.com/rl-institut/super-repo"
+SPDX-PackageDownloadLocation = "https://github.com/OpenEnergyPlatform/energy-technology-catalogs"
 SPDX-PackageComment = "The code of this repository is licensed under the MIT License (MIT)."
 
 [[annotations]]
@@ -26,13 +26,6 @@ path = ".github/ISSUE_TEMPLATE/*.md"
 precedence = "override"
 SPDX-FileCopyrightText = ["2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut", "super-repo <https://github.com/rl-institut/super-repo>"]
 SPDX-License-Identifier = "CC0-1.0"
-
-[[annotations]]
-path = "super_repo/example.json"
-precedence = "override"
-SPDX-FileCopyrightText = "OEMetadata <https://github.com/OpenEnergyPlatform/oemetadata>"
-SPDX-License-Identifier = "CC0-1.0"
-SPDX-FileComment = "OEMetadata-2.0.2 licensed CC0-1.0"
 
 [[annotations]]
 path = [".agents/skills/.gitkeep", ".claude/skills/.gitkeep"]
