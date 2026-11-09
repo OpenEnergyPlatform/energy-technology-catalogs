@@ -12,7 +12,7 @@ site_description: Documentation of the Super-Repo for scientific software
 repo_name: rl-institut/super-repo
 repo_url: https://github.com/rl-institut/super-repo
 docs_dir: docs
-copyright: super-repo documentation &copy; Reiner Lemoine Institut | CC-BY-4.0
+copyright: energy-technology-catalogs documentation &copy; energy-technology-catalogs contributors, based on super-repo &copy; Reiner Lemoine Institut | CC-BY-4.0
 
 # Configuration
 theme:

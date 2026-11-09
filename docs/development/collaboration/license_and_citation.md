@@ -14,7 +14,11 @@ include the license text.
 
 Please attribute as:
 
-**"Super-Repository" © Reiner Lemoine Institut | MIT License**
+**"energy-technology-catalogs" © energy-technology-catalogs contributors | MIT License**
+
+Contributors keep the copyright of their contributions and license them under the licenses of
+this repository. The git history records the contributors; 📝 `CITATION.cff` lists the authors
+for citation.
 
 ### REUSE
 
