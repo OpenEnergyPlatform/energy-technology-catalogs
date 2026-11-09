@@ -29,6 +29,7 @@ dependencies = []
 [project.urls]
 Homepage = "https://github.com/OpenEnergyPlatform/energy-technology-catalogs"
 Source = "https://github.com/OpenEnergyPlatform/energy-technology-catalogs"
+Documentation = "https://openenergyplatform.github.io/energy-technology-catalogs/latest/"
 
 [tool.ruff]
 builtins = ["ellipsis"]
