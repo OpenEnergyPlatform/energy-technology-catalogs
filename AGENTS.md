@@ -54,7 +54,7 @@ Build and release: `python -m build`, `twine check dist/*`, version bumps via `b
 - **Docstrings** in `super_repo/` use reST-style `:param:`/`:return:` fields. `example_google.py` is a third-party example (BSD-2-Clause), do not restyle it.
 - **Branches**: `develop` (integration, PR target), `production` (latest release), `gh-pages` (built docs). Working branches are named `type-issuenr-short-description` with type `feature`, `enhance`, `bug`, `hotfix` or `release`, e.g. `feature-42-add-new-ontology-class`.
 - **Commit messages**: imperative mood, subject shorter than 50 characters, no trailing period, always ending with the issue number, e.g. `Add function with some method #42`.
-- **CHANGELOG.md** (Keep a Changelog format): add an entry under `[Unreleased]` in Added/Changed/Removed with the PR link, e.g. `- Update documentation [(#93)](https://github.com/rl-institut/super-repo/pull/93)`.
+- **CHANGELOG.md** (Keep a Changelog format): add an entry under `[Unreleased]` in Added/Changed/Removed with the PR link, e.g. `- Update documentation [(#93)](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/pull/93)`.
 - New documentation pages must be added to `nav` in `mkdocs.yml`.
 
 <!-- Keep this section in derived repositories -->
@@ -90,7 +90,7 @@ On Windows, git checks out symlinks as plain text files unless symlinks are enab
 
 Use this checklist when setting up a new repository based on `super-repo`. Ask the user for the project name, package name, GitHub organisation, authors and description first. Work through the list step by step and let the user review the result.
 
-1. **Names and URLs**: replace `super-repo`, `super_repo`, `Super Repo` and `rl-institut/super-repo` with the new project and package names in all files (`git grep -i "super.repo"`), including `pyproject.toml`, `mkdocs.yml`, `tox.ini`, `README.rst`, `CONTRIBUTING.md`, `RELEASE_PROCEDURE.md`, `.github/` templates and `docs/`.
+1. **Names and URLs**: replace `super-repo`, `super_repo`, `Super Repo` and `OpenEnergyPlatform/energy-technology-catalogs` with the new project and package names in all files (`git grep -i "super.repo"`), including `pyproject.toml`, `mkdocs.yml`, `tox.ini`, `README.rst`, `CONTRIBUTING.md`, `RELEASE_PROCEDURE.md`, `.github/` templates and `docs/`.
 2. **Package and tests**: rename the `super_repo/` package, remove the example modules and tests (`example_*.py`, `example.json`, `test/test_example.py`) or replace them with first code, and update `docs/user_documentation/`.
 3. **Metadata**: set authors, title, description, URLs and version (e.g. `0.1.0`) in `pyproject.toml`, `CITATION.cff`, `.bumpversion.toml` and `uv.lock`. Reset `USERS.cff`.
 4. **Licensing**: check `LICENSE.txt` and `REUSE.toml` (package name, supplier, annotations). Add the copyright of the new authors to the SPDX headers and replace the `super-repo vX.Y.Z` line with the new project where files are substantially changed. Run `reuse lint`.

@@ -4,11 +4,15 @@ hide:
   - toc
 ---
 
-# Welcome to the Super-Repository Documentation
+# Welcome to the Energy Technology Catalogs Documentation
 
-A template repository to test and document elements and features for research software. <br>
-It implements the collection of repository elements and files. <br>
-The goal is to simplify and standardise the creation of software in GitHub repositories.
+This repository integrates techno-economic data from established energy technology catalogs. <br>
+Parameters such as investment costs, efficiencies, lifetimes and operation and maintenance costs
+are mapped to a common data structure and described with
+[OEMetadata](https://github.com/OpenEnergyPlatform/oemetadata) and the
+[Open Energy Ontology](https://github.com/OpenEnergyPlatform/ontology). <br>
+The goal is to make values from different sources comparable, traceable to their origin and
+directly usable in energy system modelling and heat planning.
 
 ## Documentation Structure
 
@@ -17,14 +21,14 @@ The documentation is separated into two main sections:
 
 ### Fields for development
 
-- [Documentation](https://rl-institut.github.io/super-repo/latest/development/documentation/)
-- [Collaboration](https://rl-institut.github.io/super-repo/latest/development/collaboration/)
-- [Best-Practices](https://rl-institut.github.io/super-repo/latest/development/best-practice/)
-- [Release](https://rl-institut.github.io/super-repo/latest/development/release/)
-- [Template](https://rl-institut.github.io/super-repo/latest/development/template/)
+- [Documentation](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/documentation/)
+- [Collaboration](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/collaboration/)
+- [Best-Practices](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/best-practice/)
+- [Release](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/release/)
+- [Template](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/template/)
 
 ### Fields for code documentation
 
-- [Install](https://rl-institut.github.io/super-repo/latest/user_documentation/install/)
-- [Functions](https://rl-institut.github.io/super-repo/latest/user_documentation/functions/)
-- [Code Example](https://rl-institut.github.io/super-repo/latest/user_documentation/test/)
+- [Install](https://openenergyplatform.github.io/energy-technology-catalogs/latest/user_documentation/install/)
+- [Functions](https://openenergyplatform.github.io/energy-technology-catalogs/latest/user_documentation/functions/)
+- [Tests](https://openenergyplatform.github.io/energy-technology-catalogs/latest/user_documentation/test/)

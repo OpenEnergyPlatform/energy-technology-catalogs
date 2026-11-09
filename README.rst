@@ -1,6 +1,6 @@
 ..
   SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-  SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/OpenEnergyPlatform/energy-technology-catalogs>
+  SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
   SPDX-License-Identifier: MIT
 
 .. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
@@ -78,7 +78,7 @@ License and Citation
     :alt: REUSE
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/energy-technology-catalogs/documentation.yml?branch=develop&label=documentation
-    :target: https://rl-institut.github.io/energy-technology-catalogs/
+    :target: https://openenergyplatform.github.io/energy-technology-catalogs/
     :alt: Documentation
 
 .. |badge_mkdocs| image:: https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=flat&logo=MaterialForMkDocs&logoColor=white&color=grey
