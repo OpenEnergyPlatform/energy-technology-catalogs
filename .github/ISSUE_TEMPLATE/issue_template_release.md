@@ -19,13 +19,13 @@ Describe the release in as much detail as possible.
 ## Details of the release
 
 **Name:** Find an appropriate and memorable name for the release that will help it be remembered.
-**Git tag:** v0.1.0 "super-repo Minor Release v0.1.0"
+**Git tag:** v0.1.0 "energy-technology-catalogs Minor Release v0.1.0"
 **Release Manager:** Choose a responsible person.
 **Date:** Arrange a convenient date
 
 ## Workflow checklist
 
-- [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
+- [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/RELEASE_PROCEDURE.md)
 - [ ] 4. 🐙 Create a `Draft GitHub Release`
 - [ ] 5. 💠 Create a `release` branch
 - [ ] 6. 📝 Update the version files (bump version number)

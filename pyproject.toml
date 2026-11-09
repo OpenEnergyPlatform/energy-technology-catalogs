@@ -7,11 +7,12 @@ build-backend = "flit_core.buildapi"
 requires = ["flit_core >=3.8.0,<4"]
 
 [project]
-name = "super-repo"
-version = "0.5.0"
+name = "energy-technology-catalogs"
+version = "0.1.0"
 authors = [
-    {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"}]
-description = "A template repo for research software."
+    {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"},
+    {name = "Chris René Hoffmann", email = "chris.hoffmann@uni-kassel.de"}]
+description = "Interoperable data catalogs of energy technologies."
 readme = "README.rst"
 license = {file = "LICENSE.txt"}
 requires-python = ">=3.10"
@@ -23,18 +24,16 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
 ]
-dependencies = [
-    "stringcase ~=1.2.0",
-]
+dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/rl-institut/super-repo"
-Source = "https://github.com/rl-institut/super-repo"
-Documentation = "https://rl-institut.github.io/super-repo/latest/"
+Homepage = "https://github.com/OpenEnergyPlatform/energy-technology-catalogs"
+Source = "https://github.com/OpenEnergyPlatform/energy-technology-catalogs"
+Documentation = "https://openenergyplatform.github.io/energy-technology-catalogs/latest/"
 
 [tool.ruff]
 builtins = ["ellipsis"]
-target-version = "py38"
+target-version = "py310"
 
 [tool.ruff.lint]
 exclude = [
@@ -42,6 +41,7 @@ exclude = [
   "doc",
   "_typed_ops.pyi",
 ]
+
 # E402: module level import not at top of file
 # E501: line too long - let black worry about that
 # E731: do not assign a lambda expression, use a def
@@ -66,5 +66,5 @@ select = [
 "__init__.py" = ["F401"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["pandas_indexing"]
+known-first-party = ["energy_technology_catalogs"]
 lines-after-imports = 2

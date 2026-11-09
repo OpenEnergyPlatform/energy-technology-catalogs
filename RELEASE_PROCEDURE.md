@@ -27,13 +27,13 @@ It always has the format `YYYY-MM-DD`, for example `2022-05-16`.
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
+For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 
-- Create [New classic project](https://github.com/rl-institut/super-repo/projects?type=classic)
+- Create [New classic project](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/projects?type=classic)
 - Use the project template _Automated kanban with reviews_
-- Named `super-repo-v0.1.0`
+- Named `energy-technology-catalogs-v0.1.0`
 - Add a meaningful description
 - Track project progress
 
@@ -50,7 +50,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 3. 🐙 Create a `GitHub Issue`
 
-- Use [`📝issue_template_release`](https://github.com/rl-institut/super-repo/issues/new?template=issue_template_release.md)
+- Use [`📝issue_template_release`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/issues/new?template=issue_template_release.md)
 - Name `Release - Minor Version - 0.1.0`
 - Complete the necessary details from the template
 
@@ -59,7 +59,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### 4. 🐙 Create a `Draft GitHub Release`
 
 - Start here for a **Patch Release** (Hotfix)
-- [Draft a new release](https://github.com/rl-institut/super-repo/releases/new)
+- [Draft a new release](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/releases/new)
 - Enter the release version number `0.1.0` as title
 - Summarize key changes from changelog in the description
 
@@ -69,9 +69,9 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### Changed
 ### Removed
 
-**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)
-**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)
-**Main developers:** @Ludee @jh-RLI
+**Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/CHANGELOG.md)
+**Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/compare/v0.1.0...v0.2.0)
+**Main developers:** @Ludee @crhunikassel
 ```
 
 - Save draft
@@ -80,7 +80,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Change to `develop` branch: 💠`git checkout develop`
 - Update with online version: 💠`git pull`
-- Run [Pre-commit Hooks](https://rl-institut.github.io/super-repo/latest/development/best-practice/pre_commit_hooks/): 💻`pre-commit run --all-files`
+- Run [Pre-commit Hooks](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/best-practice/pre_commit_hooks/): 💻`pre-commit run --all-files`
 - Create branch: 💠`git checkout -b release-v0.1.0`
 - Push branch: 💠`git push --set-upstream origin release-v0.1.0`
 
@@ -118,7 +118,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 - Change to `production` branch: 💠`git checkout production`
 - Update with online version: 💠`git pull`
 - Check existing tags: 💠`git tag -n`
-- Create new tag: 💠`git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
+- Create new tag: 💠`git tag -a v0.1.0 -m "energy-technology-catalogs Minor Release v0.1.0"`
 - This commit will be the final version for the release, breath three times and check again
 - Push tag: 💠`git push --tags`
 
@@ -142,7 +142,7 @@ If you messed up, remove tags and start again
 
 #### 🐙 Automated Release with GitHub Action
 
-- Check [GitHub Action](https://github.com/rl-institut/super-repo/actions/workflows/publish_pypi.yml)
+- Check [GitHub Action](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/actions/workflows/publish_pypi.yml)
 - The GitHub release starts the automated upload to PyPI
 - Check on PyPI if release arrived
 - If automated released failed, release manually
@@ -161,7 +161,7 @@ If you messed up, remove tags and start again
 
 ### 11. 🐙 Set up new development
 
-- Create a [Pull Request](https://github.com/rl-institut/super-repo/compare) from `production` to `develop`
+- Create a [Pull Request](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/compare) from `production` to `develop`
 - Named `Set up new development after release v0.1.0`
 - Checkout `develop` branch and pull
 - Create a new **Unreleased** section in the `📝CHANGELOG.md`
@@ -177,7 +177,7 @@ If you messed up, remove tags and start again
 ```
 
 - Close all solved issues and PR and set tags and status
-- Create a new [GitHub Project](https://github.com/rl-institut/super-repo/projects?query=is%3Aopen) by cloning the latest project
+- Create a new [GitHub Project](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/projects?query=is%3Aopen) by cloning the latest project
 
 ▶️ Continue the developments 🛠
 
@@ -189,8 +189,8 @@ If you messed up, remove tags and start again
 - Update with online version: 💠`git pull`
 - Create branch: 💠`git checkout -b deployment-test`
 - Push branch: 💠`git push --set-upstream origin deployment-test`
-- Check [GitHub Action](https://github.com/rl-institut/super-repo/actions/workflows/publish_testpypi.yml)
-- Check [Test-PyPI](https://test.pypi.org/project/super-repo/#history)
+- Check [GitHub Action](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/actions/workflows/publish_testpypi.yml)
+- Check [Test-PyPI](https://test.pypi.org/project/energy-technology-catalogs/#history)
 - Delete remote branch: 💠`git branch -d origin deployment-test`
 - Delete local branch: 💠`git branch -D deployment-test`
 - Note: Each version can only be released on Test-PyPI once. If needed, increment the Patch version

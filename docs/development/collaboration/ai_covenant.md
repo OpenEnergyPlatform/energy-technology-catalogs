@@ -1,6 +1,6 @@
 # AI Covenant
 
-This repository is following the [AI Covenant](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md). <br>
+This repository is following the [AI Covenant](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/AI_COVENANT.md). <br>
 It defines how AI tools (e.g. chat assistants, coding agents, AI review bots) may be used when contributing.
 
 The core principle is: **You own your contributions**, regardless of what tools helped create them. <br>

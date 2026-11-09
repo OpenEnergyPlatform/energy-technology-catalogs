@@ -4,21 +4,21 @@
 # SPDX-License-Identifier: MIT
 
 # Project
-site_name: Super-Repo Documentation
-site_url: https://rl-institut.github.io/super-repo/
-site_description: Documentation of the Super-Repo for scientific software
+site_name: Energy Technology Catalogs
+site_url: https://openenergyplatform.github.io/energy-technology-catalogs/
+site_description: Documentation of the energy technology catalogs
 
 # Repository
-repo_name: rl-institut/super-repo
-repo_url: https://github.com/rl-institut/super-repo
+repo_name: OpenEnergyPlatform/energy-technology-catalogs
+repo_url: https://github.com/OpenEnergyPlatform/energy-technology-catalogs
 docs_dir: docs
-copyright: super-repo documentation &copy; Reiner Lemoine Institut | CC-BY-4.0
+copyright: energy-technology-catalogs documentation &copy; energy-technology-catalogs contributors, based on super-repo &copy; Reiner Lemoine Institut | CC-BY-4.0
 
 # Configuration
 theme:
   name: material
-  logo: img/logo_rli_small.png
-  favicon: img/favicon_super-repo.png
+  logo: img/logo_oefamily_small.png
+  favicon: img/logo_oefamily_small.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -65,7 +65,7 @@ extra:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/rl-institut/super-repo
+      link: https://github.com/OpenEnergyPlatform/energy-technology-catalogs
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.social/@RL_Institut@wisskomm.social
 
@@ -83,8 +83,6 @@ nav:
       - License and Citation: development/collaboration/license_and_citation.md
       - Git: development/collaboration/git.md
       - Users: development/collaboration/users.md
-      - Chat: development/collaboration/chat.md
-      - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
       - AI Covenant: development/collaboration/ai_covenant.md
     - Best Practices:
@@ -95,13 +93,10 @@ nav:
       - Code Style: development/best-practice/code_style.md
     - Release:
       - development/release/index.md
-    - Template:
-      - development/template/index.md
   - User Documentation:
     - Install:
       - user_documentation/install/index.md
     - Functions:
       - user_documentation/functions/index.md
-      - user_documentation/functions/code_example.md
     - Tests:
       - user_documentation/test/index.md

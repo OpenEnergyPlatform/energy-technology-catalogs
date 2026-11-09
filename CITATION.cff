@@ -10,20 +10,14 @@ authors:
     alias: "Ludee"
     affiliation: "Reiner Lemoine Institut"
     orcid: "https://orcid.org/0000-0003-4655-2321"
-  - family-names: "Huber"
-    given-names: "Jonas"
-    alias: "jh-rli"
-    affiliation: "Reiner Lemoine Institut"
-    orcid: "https://orcid.org/0000-0002-6234-0751"
-  - family-names: "Amme"
-    given-names: "Jonathan"
-    alias: "nesnoj"
-    affiliation: "Reiner Lemoine Institut"
-    orcid: "https://orcid.org/0000-0002-8563-5261"
-title: "Super Repo"
+  - family-names: "Hoffmann"
+    given-names: "Chris René"
+    alias: "crhunikassel"
+    affiliation: "University of Kassel"
+    orcid: "https://orcid.org/0009-0006-5625-6576"
+title: "energy-technology-catalogs"
 type: software
 license: MIT
-version: 0.5.0
+version: 0.1.0
 doi: null
-date-released: 2024-12-09
-url: "https://github.com/rl-institut/super-repo/"
+url: "https://github.com/OpenEnergyPlatform/energy-technology-catalogs/"

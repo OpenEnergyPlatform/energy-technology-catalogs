@@ -41,10 +41,10 @@ see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recor
 [Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 offer specific functions and default configurations for new issues.
 
-- [Feature Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
-- [Bug Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
-- [Release Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
-- [User Kudos Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
+- [Feature Issue Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
+- [Bug Issue Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
+- [Release Issue Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
+- [User Kudos Issue Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
 
 ## Pull Request (PR) Template
 
@@ -52,11 +52,11 @@ The [Pull Request Template](https://docs.github.com/en/communities/using-templat
 is used for all PR, because it is only possible to create a single one. <br>
 It includes all needed information to merge branches and release new versions. <br>
 
-- [Pull Request Template](https://github.com/rl-institut/super-repo/blob/production/.github/pull_request_template.md)
+- [Pull Request Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/pull_request_template.md)
 
 ## GitHub Projects
 
-[GitHub Projects](https://github.com/rl-institut/super-repo/projects)
+[GitHub Projects](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/projects)
 help to organise and manage the issues and PR across different repositories. <br>
 It can be used for the release procedure, research projects, and complex developments.
 
@@ -64,11 +64,11 @@ It can be used for the release procedure, research projects, and complex develop
 
 GitHub Labels are used to organize Issues and PR. <br>
 Colours and emoticons improve presentation, see: <br>
-    📝 [github-labels.json](https://github.com/rl-institut/super-repo/blob/develop/docs/development/git/github-labels.json)
+    📝 [github-labels.json](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/develop/docs/development/collaboration/github-labels.json)
 
 ## GitHub Workflows (Actions)
 
-[GitHub Actions](https://github.com/rl-institut/super-repo/actions)
+[GitHub Actions](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/actions)
 are used to automate processes of the repository. <br>
 Main use-cases are building and publishing the documentation and run automated tests.
 
