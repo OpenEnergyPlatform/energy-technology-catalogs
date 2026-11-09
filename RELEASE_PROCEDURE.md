@@ -71,7 +71,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEn
 
 **Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/CHANGELOG.md)
 **Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/compare/v0.1.0...v0.2.0)
-**Main developers:** @Ludee @jh-RLI
+**Main developers:** @Ludee @crhunikassel
 ```
 
 - Save draft

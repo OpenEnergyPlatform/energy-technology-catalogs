@@ -17,8 +17,8 @@ copyright: energy-technology-catalogs documentation &copy; energy-technology-cat
 # Configuration
 theme:
   name: material
-  logo: img/logo_rli_small.png
-  favicon: img/favicon_super-repo.png
+  logo: img/logo_oefamily_small.png
+  favicon: img/logo_oefamily_small.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
