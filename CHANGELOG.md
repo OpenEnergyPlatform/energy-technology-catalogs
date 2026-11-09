@@ -17,5 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Set up the repository from the super-repo template [(#3)](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/pull/3)
 
 ### Removed
