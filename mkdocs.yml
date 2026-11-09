@@ -93,8 +93,6 @@ nav:
       - Code Style: development/best-practice/code_style.md
     - Release:
       - development/release/index.md
-    - Template:
-      - development/template/index.md
   - User Documentation:
     - Install:
       - user_documentation/install/index.md

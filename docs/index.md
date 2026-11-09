@@ -25,7 +25,6 @@ The documentation is separated into two main sections:
 - [Collaboration](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/collaboration/)
 - [Best-Practices](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/best-practice/)
 - [Release](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/release/)
-- [Template](https://openenergyplatform.github.io/energy-technology-catalogs/latest/development/template/)
 
 ### Fields for code documentation
 
