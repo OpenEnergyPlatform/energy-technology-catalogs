@@ -639,3 +639,34 @@ def test_with_form_replaces_the_form_only():
     g = f.with_form(Linear(1.0, 2.0))
     assert g.form == Linear(1.0, 2.0)
     assert g.with_form(f.form) == f
+
+
+def test_names_are_stripped():
+    f = make(technology=" Boiler ", source="Test ")
+    assert f.key == make().key
+    assert CostFunctionKey(" Boiler", "Test ", 2025) == CostFunctionKey(
+        "Boiler", "Test", 2025
+    )
+
+
+def test_from_dict_technology_wins_over_component():
+    data = {**make().to_dict(), "component": "Old", "name": "Older"}
+    assert CostFunction.from_dict(data).technology == "Boiler"
+
+
+@pytest.mark.parametrize(
+    "changes",
+    [
+        {"tax_rate": None, "taxes_included": True},
+        {"tax_rate": True},
+        {"P_&_I_included": 0.5},
+    ],
+)
+def test_from_dict_rejects_booleans_as_numbers_and_numbers_as_flags(changes):
+    with pytest.raises(ValueError):
+        CostFunction.from_dict({**REFERENCE_ROW, **changes})
+
+
+def test_from_dict_accepts_zero_and_one_as_flag():
+    f = CostFunction.from_dict({**REFERENCE_ROW, "P_&_I_included": 1.0})
+    assert f.installation_included is True

@@ -171,6 +171,8 @@ class CostFunctionKey:
             raise ValueError("'technology' must be a non-empty string.")
         if not isinstance(self.source, str) or not self.source.strip():
             raise ValueError("'source' must be a non-empty string.")
+        object.__setattr__(self, "technology", self.technology.strip())
+        object.__setattr__(self, "source", self.source.strip())
         year = self.investment_year
         if not isinstance(year, int | np.integer) or isinstance(year, bool):
             raise TypeError(
@@ -222,6 +224,8 @@ def _is_missing(value: Any) -> bool:
 
 
 def _float_or(value: Any, default: float) -> float:
+    if isinstance(value, bool | np.bool_):
+        raise ValueError(f"Expected a number, got the boolean {value}.")
     return default if _is_missing(value) else float(value)
 
 
@@ -308,6 +312,8 @@ class CostFunction:
             raise ValueError("'technology' must be a non-empty string.")
         if not isinstance(self.source, str) or not self.source.strip():
             raise ValueError("'source' must be a non-empty string.")
+        object.__setattr__(self, "technology", self.technology.strip())
+        object.__setattr__(self, "source", self.source.strip())
         if not isinstance(self.technology_type, TechnologyType):
             raise TypeError(
                 f"'technology_type' must be TechnologyType, "
@@ -385,7 +391,7 @@ class CostFunction:
 
         Scales the investment cost form and the fixed O&M form; shares, tax
         rate, relative bounds, sizes and years are kept. Used for price
-        adjustment and proportional calibration. Subclasses extend it to
+        adjustment. Subclasses extend it to
         every further value in currency they hold.
 
         :param factor: Dimensionless factor, > 0.
@@ -640,7 +646,9 @@ class CostFunction:
             if name is None or _is_missing(value):
                 continue
             # "component" is the technology name, "name" may be a composed label
-            if _is_missing(d.get(name)) or key == "component":
+            if key == "name" and not _is_missing(data.get("component")):
+                continue
+            if _is_missing(d.get(name)):
                 d[name] = value
         legacy_power_law = "form" not in d and "coefficient" in d
 
@@ -730,6 +738,10 @@ class CostFunction:
         elif isinstance(included, str):
             raise ValueError(
                 f"'installation_included' must be a boolean, got the text {included!r}."
+            )
+        elif not isinstance(included, bool | np.bool_) and included not in (0, 1):
+            raise ValueError(
+                f"'installation_included' must be a boolean, got {included!r}."
             )
         fields["installation_included"] = bool(included)
         share = _optional_form(d.get("installation_share"))

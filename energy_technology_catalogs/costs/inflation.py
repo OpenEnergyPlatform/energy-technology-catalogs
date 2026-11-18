@@ -13,9 +13,8 @@ The packaged default is the producer price index of industrial products
 Office (Destatis), annual values 1949-2025.
 
 Adjusting a cost function changes its price base (``price_year``) and scales
-its investment cost form and its fixed O&M cost form (the latter deviates from
-the Uni Kassel cost function module v3.0.0); ``investment_year``, and with it
-the identity of the function, is never changed.
+its investment cost form and its fixed O&M cost form; ``investment_year``, and
+with it the identity of the function, is never changed.
 
 Ported from the Uni Kassel cost function module v3.0.0.
 
@@ -86,26 +85,56 @@ def _rates_from_index(index: Mapping[int, float]) -> dict[int, float]:
     }
 
 
-def _rates_from_table(table: pd.DataFrame) -> dict[int, float]:
+def _decimal_comma(cell: Any) -> Any:
+    """Replace a decimal comma by a point in a text cell without a point."""
+    if isinstance(cell, str) and "," in cell and "." not in cell:
+        return cell.strip().replace(",", ".")
+    return cell
+
+
+def _to_numeric(column: pd.Series) -> pd.Series:
+    """Numeric values of a column; text cells may use a decimal comma.
+
+    :param column: Column read from a file.
+    :return: Float or integer values, ``NaN`` where a cell is not a number.
+    """
+    if column.dtype == object:
+        column = column.map(_decimal_comma)
+    return pd.to_numeric(column, errors="coerce")
+
+
+def _rates_from_table(table: pd.DataFrame, source: str) -> dict[int, float]:
     """Rates from a table with ``year``/``rate`` columns or year and index columns.
 
     :param table: Either columns named ``year`` and ``rate`` (any case), or the
-        year in the first and the index value in the second column. Rows
-        without a numeric year or value are dropped.
+        year in the first and the index value in the second column. Numbers
+        may use a decimal point or, in text cells without a point, a decimal
+        comma. Rows without a numeric year or value are dropped.
+    :param source: Name of the file, for error messages.
     :return: Rates per year as fractions.
+    :raises ValueError: If the table has fewer than two columns or no row
+        with a numeric year and value.
     """
     columns = {str(column).strip().lower(): column for column in table.columns}
     if "year" in columns and "rate" in columns:
-        years = pd.to_numeric(table[columns["year"]], errors="coerce")
-        values = pd.to_numeric(table[columns["rate"]], errors="coerce")
+        year_column, value_column = columns["year"], columns["rate"]
         is_rate = True
     else:
         if table.shape[1] < 2:
-            raise ValueError("Price index table needs a year and a value column.")
-        years = pd.to_numeric(table.iloc[:, 0], errors="coerce")
-        values = pd.to_numeric(table.iloc[:, 1], errors="coerce")
+            raise ValueError(
+                f"Price index table '{source}' needs a year and a value column."
+            )
+        year_column, value_column = table.columns[0], table.columns[1]
         is_rate = False
+    years = _to_numeric(table[year_column])
+    values = _to_numeric(table[value_column])
     valid = years.notna() & values.notna()
+    if not valid.any():
+        raise ValueError(
+            f"Price index table '{source}' has no row with a numeric year in "
+            f"column '{year_column}' and a numeric value in column "
+            f"'{value_column}'."
+        )
     series = {int(y): float(v) for y, v in zip(years[valid], values[valid])}
     return series if is_rate else _rates_from_index(series)
 
@@ -129,7 +158,7 @@ def _default_rates() -> tuple[tuple[int, float], ...]:
     resource = resources.files("energy_technology_catalogs").joinpath(_DEFAULT_FILE)
     with resource.open("r", encoding="utf-8") as file:
         table = pd.read_csv(file)
-    return tuple(_rates_from_table(table).items())
+    return tuple(_rates_from_table(table, _DEFAULT_FILE).items())
 
 
 class PriceIndex:
@@ -179,12 +208,13 @@ class PriceIndex:
         The file either has columns ``year`` and ``rate`` (rates as fractions,
         column names in any case) or holds the year in the first and the
         index value in the second column; further columns are ignored. CSV
-        files may be comma or semicolon separated, UTF-8 or Latin-1 encoded.
+        files may be comma or semicolon separated, UTF-8 or Latin-1 encoded;
+        numbers may use a decimal comma (``0,02``) where they contain no point.
 
         :param path: Path of a ``.csv`` or ``.xlsx`` file.
         :return: New price index.
-        :raises ValueError: If the suffix is not supported or the table has
-            fewer than two columns.
+        :raises ValueError: If the suffix is not supported, the table has
+            fewer than two columns or no row with a numeric year and value.
         """
         path = Path(path)
         suffix = path.suffix.lower()
@@ -194,7 +224,7 @@ class PriceIndex:
             table = pd.read_excel(path)
         else:
             raise ValueError(f"Unsupported file suffix '{suffix}'; use .csv or .xlsx.")
-        return cls(_rates_from_table(table))
+        return cls(_rates_from_table(table, str(path)))
 
     @classmethod
     def default(cls) -> PriceIndex:
@@ -249,16 +279,15 @@ class PriceIndex:
     def adjust_function(self, function: F, to_year: int) -> F:
         """Move a cost function to prices of ``to_year``.
 
-        The investment cost form ``form`` and the fixed O&M cost form
-        ``fixed_om`` (if any) are scaled with :meth:`CostFunction.scaled` by
-        ``k = factor(function.price_year, to_year)``, and ``price_year`` is set
-        to ``to_year``. Both are money at prices of ``price_year``. Scaling
-        ``fixed_om`` deviates from the Uni Kassel cost function module
-        v3.0.0. ``investment_year`` is never changed, so the key of the
-        function stays the same; the installation share, tax rate,
-        uncertainty bounds, size bounds and all other fields are kept.
-        Works for every subclass of
-        :class:`CostFunction` via :func:`dataclasses.replace`.
+        The function is scaled with :meth:`CostFunction.scaled` by
+        ``k = factor(function.price_year, to_year)``: this scales the
+        investment cost form ``form`` and the fixed O&M cost form ``fixed_om``
+        (if any), both money at prices of ``price_year``, and subclasses also
+        scale their further values in currency. ``price_year`` is then set to
+        ``to_year`` via :func:`dataclasses.replace`. ``investment_year`` is
+        never changed, so the key of the function stays the same; the
+        installation share, tax rate, uncertainty bounds, size bounds and all
+        other fields are kept.
 
         :param function: Cost function to adjust.
         :param to_year: Target price year.

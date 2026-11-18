@@ -31,6 +31,7 @@ SPDX-License-Identifier: MIT
 from __future__ import annotations
 
 import dataclasses
+import itertools
 import logging
 import math
 import warnings
@@ -64,8 +65,11 @@ POINT_METHODS = frozenset({"proportional", "vertical_shift", "coefficient"})
 _ZERO_THRESHOLD = 1e-12
 """Absolute value below which a cost or size term counts as zero."""
 
-_SHAPE_START: dict[str, float] = {"exponent": 0.5, "rate": 0.0}
-"""Start values of shape parameters if no log-linear start is possible."""
+_SHAPE_CANDIDATES: dict[str, Callable[[np.ndarray], tuple[float, ...]]] = {
+    "exponent": lambda size: (-1.0, -0.5, 0.5, 1.0),
+    "rate": lambda size: tuple(c / float(size.max()) for c in (-2.0, -1.0, 1.0, 2.0)),
+}
+"""Candidate start values of shape parameters, as a function of the sizes."""
 
 _LOG_LINEAR_FEATURE: dict[str, Callable[[np.ndarray], np.ndarray]] = {
     "exponent": np.log,
@@ -237,18 +241,62 @@ def _solve_cost_parameters(
     return dict(zip(names, (float(v) for v in solution))), int(rank)
 
 
-def _shape_start(
+def _shape_candidates(
     name: str, size: np.ndarray, cost: np.ndarray, sqrt_w: np.ndarray
-) -> float:
-    """Start value of a shape parameter: log-linear fit if all costs are positive."""
+) -> list[float]:
+    """Candidate start values of a shape parameter.
+
+    The fixed candidates of :data:`_SHAPE_CANDIDATES`, preceded by the slope
+    of a log-linear fit if all costs are positive.
+    """
+    candidates = list(_SHAPE_CANDIDATES.get(name, lambda s: (0.0,))(size))
     feature = _LOG_LINEAR_FEATURE.get(name)
-    if feature is None or not np.all(cost > 0):
-        return _SHAPE_START.get(name, 0.0)
-    design = np.column_stack([np.ones_like(size), feature(size)])
-    solution = np.linalg.lstsq(
-        design * sqrt_w[:, None], np.log(cost) * sqrt_w, rcond=None
-    )[0]
-    return float(solution[1])
+    if feature is not None and np.all(cost > 0):
+        design = np.column_stack([np.ones_like(size), feature(size)])
+        solution = np.linalg.lstsq(
+            design * sqrt_w[:, None], np.log(cost) * sqrt_w, rcond=None
+        )[0]
+        candidates.insert(0, float(solution[1]))
+    return candidates
+
+
+def _best_start(
+    template: CostForm,
+    free_cost: Sequence[str],
+    shape_candidates: Mapping[str, Sequence[float]],
+    size: np.ndarray,
+    cost: np.ndarray,
+    sqrt_w: np.ndarray,
+) -> tuple[dict[str, float], dict[str, float], int]:
+    """Shape start with the lowest weighted residual sum of squares.
+
+    For every combination of shape candidates the free cost parameters are
+    solved by linear least squares.
+
+    :return: Shape values, cost parameter values, rank of the design matrix.
+    :raises ValueError: If no candidate gives a finite residual.
+    """
+    best: tuple[float, dict[str, float], dict[str, float], int] | None = None
+    names = list(shape_candidates)
+    for combination in itertools.product(*shape_candidates.values()):
+        shape = dict(zip(names, combination))
+        try:
+            with np.errstate(over="ignore", invalid="ignore"):
+                trial = template.with_parameters(**shape)
+                linear, rank = _solve_cost_parameters(
+                    trial, free_cost, size, cost, sqrt_w
+                )
+                predicted = trial.with_parameters(**linear).evaluate(size)
+        except (ValueError, np.linalg.LinAlgError):
+            continue
+        sse = float(np.sum((sqrt_w * (cost - predicted)) ** 2))
+        if not math.isfinite(sse):
+            sse = math.inf
+        if best is None or sse < best[0]:
+            best = (sse, shape, linear, rank)
+    if best is None:
+        raise ValueError("No start value with a finite residual was found.")
+    return best[1], best[2], best[3]
 
 
 def fit_cost_form(
@@ -270,10 +318,12 @@ def fit_cost_form(
     Forms without free shape parameters (linear, polynomial, logarithmic,
     constant, piecewise linear, or a power law with fixed exponent) are solved
     by linear least squares. Power law and exponential forms are solved by
-    :func:`scipy.optimize.least_squares` (trust-region reflective). Their start
-    value for the exponent or rate comes from a fit of ``ln(cost)`` if all
-    costs are positive, otherwise it is 0.5 (exponent) or 0.0 (rate); the cost
-    parameters start from the linear least-squares solution for that shape.
+    :func:`scipy.optimize.least_squares` (trust-region reflective). For the
+    start value, the exponent candidates -1, -0.5, 0.5, 1 or the rate
+    candidates ±1/max(size), ±2/max(size), plus the slope of a fit of
+    ``ln(cost)`` if all costs are positive, are each combined with the linear
+    least-squares solution of the cost parameters; the solver starts from
+    the candidate with the lowest residual.
     With a loss other than ``"linear"`` every form is solved iteratively,
     starting from the linear solution.
 
@@ -358,12 +408,16 @@ def fit_cost_form(
     free_cost = [name for name in free if name in cost_names]
     free_shape = [name for name in free if name not in cost_names]
 
-    shape = {
-        name: initial.get(name, _shape_start(name, size, cost, sqrt_w))
+    candidates = {
+        name: [initial[name]]
+        if name in initial
+        else _shape_candidates(name, size, cost, sqrt_w)
         for name in free_shape
     }
+    shape, linear, rank = _best_start(
+        template, free_cost, candidates, size, cost, sqrt_w
+    )
     template = template.with_parameters(**shape)
-    linear, rank = _solve_cost_parameters(template, free_cost, size, cost, sqrt_w)
     if not free_shape and rank < len(free_cost):
         raise ValueError(
             f"The free parameters {free_cost} of the {kind} form are not determined "
@@ -414,12 +468,23 @@ def fit_cost_form(
 
 
 def _clip_data(
-    data_points: Sequence[tuple[float, float]], lower: float, upper: float
+    data_points: Sequence[tuple[float, float]],
+    lower: float,
+    upper: float,
+    absolute: bool,
 ) -> tuple[np.ndarray, np.ndarray]:
-    """Clip the sizes to the valid range and warn if any changed."""
+    """Clip the sizes to the valid range and warn if any changed.
+
+    A clamped cost function applies the cost per size unit at the range limit
+    to the requested size (see :meth:`CostFunction.calculate_cost`). For an
+    absolute basis the cost of a clipped point is therefore converted to the
+    limit size, ``cost * size_clipped / size``; a specific cost stays.
+    """
     size_raw = np.array([s for s, _ in data_points], dtype=float)
     cost = np.array([c for _, c in data_points], dtype=float)
     size = np.clip(size_raw, lower if lower > 0 else 1e-9, upper)
+    if absolute:
+        cost = np.where(size != size_raw, cost * size / size_raw, cost)
     if not np.allclose(size_raw, size):
         indices = np.where(~np.isclose(size_raw, size))[0].tolist()
         warnings.warn(
@@ -452,7 +517,11 @@ def calibrate_cost_function(
     the basis of the form (specific or absolute according to ``cost_basis``),
     in ``currency`` at prices of ``price_year``, including tax at ``tax_rate``
     and with planning and installation as ``installation_included`` says.
-    Sizes outside ``[size_min, size_max]`` are clipped with a warning.
+    Sizes outside ``[size_min, size_max]`` are clipped to the range limit
+    with a warning, as the cost function clamps them; for an absolute basis
+    the cost of such a point is converted to the limit size
+    (``cost * size_limit / size``), so the point is read as the clamped cost
+    function reads it.
 
     Standard mode frees the cost parameters
     (:meth:`~energy_technology_catalogs.costs.forms.CostForm.cost_parameter_names`,
@@ -468,8 +537,8 @@ def calibrate_cost_function(
 
     The start value is the unweighted linear least-squares fit to the data.
     Proportional mode has one free factor ``k`` and returns
-    ``form.scaled(k)``; there the absolute and relative blocks penalise
-    ``k - 1``, divided by 1 and by ``max(epsilon, mean |p0|)``.
+    ``form.scaled(k)``; there the absolute block penalises ``k - 1`` and the
+    relative block ``(k - 1) / max(epsilon, mean |p0|)``.
 
     :param original: Cost function to calibrate.
     :param data_points: ``(size, cost)`` pairs; size in ``size_unit``,
@@ -487,20 +556,31 @@ def calibrate_cost_function(
     :return: ``original.with_form(<calibrated form>)``: same class, all other
         fields kept. Only the investment cost is calibrated; ``fixed_om`` is
         not scaled, also not in proportional mode.
-    :raises ValueError: On empty data, a non-positive size, a negative weight
-        or a zero weight sum, an unknown loss, or (proportional mode) an
-        original cost of zero at a data point.
+    :raises ValueError: On empty data, a non-positive or non-finite size, a
+        non-finite cost, a negative or non-finite weight or a zero weight sum,
+        an unknown loss, (proportional mode) an original cost of zero at a
+        data point, or if ``original`` refuses a form replacement in
+        :meth:`CostFunction.with_form` (e.g. an uncertain cost function with
+        random parameter distributions); this is checked before the
+        optimisation.
     :raises RuntimeError: If the solver fails.
     """
     weights = (weight_data, weight_functional, weight_absolute, weight_relative)
     if not data_points:
         raise ValueError("data_points must contain at least one point.")
     _check_loss(loss)
-    for i, (size, _) in enumerate(data_points):
-        if not size > 0:
-            raise ValueError(f"data_points[{i}]: size must be positive, got {size}.")
-    if any(not w >= 0 for w in weights):
-        raise ValueError(f"All weights must be non-negative, got {weights}.")
+    for i, (size, cost_value) in enumerate(data_points):
+        if not (math.isfinite(size) and size > 0):
+            raise ValueError(
+                f"data_points[{i}]: size must be positive and finite, got {size}."
+            )
+        if not math.isfinite(cost_value):
+            raise ValueError(
+                f"data_points[{i}]: cost must be finite, got {cost_value}."
+            )
+    if any(not (math.isfinite(w) and w >= 0) for w in weights):
+        raise ValueError(f"All weights must be non-negative and finite, got {weights}.")
+    original.with_form(original.form)
     total = sum(weights)
     if total <= 0:
         raise ValueError(
@@ -515,7 +595,9 @@ def calibrate_cost_function(
     p0_values = form.parameters()
     p0 = np.array([p0_values[name] for name in names], dtype=float)
     lower, upper = original.size_min, original.size_max
-    size, cost = _clip_data(data_points, lower, upper)
+    size, cost = _clip_data(
+        data_points, lower, upper, original.cost_basis is CostBasis.ABSOLUTE
+    )
     size_eval = np.linspace(max(lower, 1e-9), upper, n_eval_points)
 
     if proportional:
@@ -527,8 +609,6 @@ def calibrate_cost_function(
             )
         cost_orig_eval = np.asarray(form.evaluate(size_eval), dtype=float)
         magnitudes = [abs(p0_values[name]) for name in names]
-        # as in the reference module: this scale is always 1
-        scale_abs = max(1.0, *(m / max(1.0, m) for m in magnitudes))
         denom_rel = max(epsilon, sum(magnitudes) / len(magnitudes))
         scale_init = float(np.dot(cost, cost_orig) / np.dot(cost_orig, cost_orig))
 
@@ -538,7 +618,7 @@ def calibrate_cost_function(
                 [
                     sqrt_w_data * (cost - k * cost_orig),
                     sqrt_w_func * (1.0 - k) * cost_orig_eval,
-                    np.atleast_1d(sqrt_w_abs * (k - 1.0) / scale_abs),
+                    np.atleast_1d(sqrt_w_abs * (k - 1.0)),
                     np.atleast_1d(sqrt_w_rel * (k - 1.0) / denom_rel),
                 ]
             )
@@ -650,18 +730,24 @@ def calibrate_to_point(
         and installation; used by ``"proportional"`` only.
     :return: ``original.with_form(<calibrated form>)``: same class, all other
         fields (including ``fixed_om``) kept.
-    :raises ValueError: For an unknown method or a non-positive size; for
-        ``"proportional"`` if the original cost at the size is zero; for
-        ``"coefficient"`` if the form has no single size-term factor, the
-        size term is zero, or the new factor would not be positive.
+    :raises ValueError: For an unknown method, a non-positive or non-finite
+        size or a non-finite cost; if ``original`` refuses a form replacement
+        in :meth:`CostFunction.with_form` (e.g. an uncertain cost function
+        with random parameter distributions); for ``"proportional"`` if the
+        original cost at the size is zero; for ``"coefficient"`` if the form
+        has no single size-term factor, the size term is zero, or the new
+        factor would not be positive.
     """
     if method not in POINT_METHODS:
         raise ValueError(
             f"Unknown method '{method}'. Valid options: {sorted(POINT_METHODS)}"
         )
     size, observed = data_point
-    if not size > 0:
-        raise ValueError(f"data_point size must be positive, got {size}.")
+    if not (math.isfinite(size) and size > 0):
+        raise ValueError(f"data_point size must be positive and finite, got {size}.")
+    if not math.isfinite(observed):
+        raise ValueError(f"data_point cost must be finite, got {observed}.")
+    original.with_form(original.form)
     if size < original.size_min or size > original.size_max:
         warnings.warn(
             f"data_point size {size} is outside the valid range "

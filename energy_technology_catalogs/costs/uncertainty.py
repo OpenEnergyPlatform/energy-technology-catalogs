@@ -403,7 +403,10 @@ class UncertainCostFunction(CostFunction):
 
     :param parameter_uncertainty: Distribution of the value of form
         parameters, by name of :meth:`CostForm.parameters`. A deterministic
-        distribution replaces the stored value.
+        distribution sets the parameter value: it is written into ``form`` at
+        construction and not kept here, so after construction this mapping
+        holds only random distributions and every method uses the same
+        parameter values.
     :param output_uncertainty: Distribution of the deviation applied to the
         deterministic gross cost, or None.
     :param output_mode: How the deviation is applied.
@@ -437,8 +440,23 @@ class UncertainCostFunction(CostFunction):
                     f"The uncertainty of '{name}' must be a Distribution, "
                     f"got {type(value).__name__}."
                 )
+        # a deterministic distribution is a parameter value: fold it into the
+        # form so that calculate_cost and the uncertainty methods agree
+        fixed = {
+            name: d.mean_value
+            for name, d in self.parameter_uncertainty.items()
+            if d.kind is DistributionKind.DETERMINISTIC
+        }
+        if fixed:
+            object.__setattr__(self, "form", self.form.with_parameters(**fixed))
         object.__setattr__(
-            self, "parameter_uncertainty", dict(self.parameter_uncertainty)
+            self,
+            "parameter_uncertainty",
+            {
+                name: d
+                for name, d in self.parameter_uncertainty.items()
+                if name not in fixed
+            },
         )
         output = self.output_uncertainty
         if output is not None and not isinstance(output, Distribution):
@@ -486,28 +504,21 @@ class UncertainCostFunction(CostFunction):
         """Return a function with another investment cost form.
 
         Parameter distributions describe the values of the current form, so
-        random ones block the replacement and deterministic ones are dropped.
-        The output uncertainty is kept in every mode; absolute and direct
-        deviations are not rescaled to the new form.
+        they block the replacement. The output uncertainty is kept in every
+        mode; absolute and direct deviations are not rescaled to the new form.
 
         :param form: New function form of the investment cost.
-        :return: New uncertain cost function without parameter uncertainty.
-        :raises ValueError: If a parameter has a non-deterministic
-            distribution.
+        :return: New uncertain cost function.
+        :raises ValueError: If ``parameter_uncertainty`` is not empty.
         """
-        random = sorted(
-            name
-            for name, d in self.parameter_uncertainty.items()
-            if d.kind is not DistributionKind.DETERMINISTIC
-        )
-        if random:
+        if self.parameter_uncertainty:
             raise ValueError(
-                f"The distributions of {random} of '{self.name}' describe the "
-                "values of the current form; remove or redefine them with "
-                "dataclasses.replace(function, parameter_uncertainty={...}) "
-                "before the form is replaced."
+                f"The distributions of {sorted(self.parameter_uncertainty)} of "
+                f"'{self.name}' describe the values of the current form; remove "
+                "or redefine them with dataclasses.replace(function, "
+                "parameter_uncertainty={...}) before the form is replaced."
             )
-        return dataclasses.replace(self, form=form, parameter_uncertainty={})
+        return dataclasses.replace(self, form=form)
 
     @classmethod
     def from_bounds(
@@ -542,14 +553,8 @@ class UncertainCostFunction(CostFunction):
 
     @property
     def supports_analytical_quantiles(self) -> bool:
-        """True if output uncertainty is set and no parameter is random.
-
-        Deterministic parameter distributions do not count as random.
-        """
-        return self.output_uncertainty is not None and all(
-            d.kind is DistributionKind.DETERMINISTIC
-            for d in self.parameter_uncertainty.values()
-        )
+        """True if output uncertainty is set and no parameter is random."""
+        return self.output_uncertainty is not None and not self.parameter_uncertainty
 
     def _apply_output_mode(
         self, raw: Any, deviation: np.ndarray, output: Distribution
@@ -608,11 +613,8 @@ class UncertainCostFunction(CostFunction):
                 "and no random parameter; use sample_cost instead."
             )
         requested, effective = self._scalar_sizes(size, extrapolate)
-        parameters = {
-            name: d.mean_value for name, d in self.parameter_uncertainty.items()
-        }
         raw = self._apply_installation(
-            self.form.evaluate(effective, parameters), effective, include_installation
+            self.form.evaluate(effective), effective, include_installation
         )
         deviation = output.quantiles(probabilities)
         cost = self._apply_tax_and_basis(

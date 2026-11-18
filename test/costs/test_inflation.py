@@ -128,6 +128,30 @@ def test_from_file_semicolon_csv(tmp_path):
     assert PriceIndex.from_file(path).rates == pytest.approx({2021: 0.10})
 
 
+def test_from_file_german_index_csv(tmp_path):
+    path = tmp_path / "index.csv"
+    path.write_text("Jahr;Index\n2020;100,0\n2021;110,0\n2022;132,0", encoding="utf-8")
+    index = PriceIndex.from_file(path)
+    assert index.rates == pytest.approx({2021: 0.10, 2022: 0.20})
+    assert index.factor(2020, 2022) == pytest.approx(1.32)
+
+
+def test_from_file_german_rate_csv(tmp_path):
+    path = tmp_path / "rates.csv"
+    path.write_text("year;rate\n2021;0,02\n2022;1.5\n", encoding="utf-8")
+    assert PriceIndex.from_file(path).rates == pytest.approx({2021: 0.02, 2022: 1.5})
+
+
+@pytest.mark.parametrize(
+    "text", ["Jahr;Index\nx;y\n-;n/a\n", "year;rate\nx;0,02\n2021;-\n"]
+)
+def test_from_file_without_numeric_row_raises(tmp_path, text):
+    path = tmp_path / "empty.csv"
+    path.write_text(text, encoding="utf-8")
+    with pytest.raises(ValueError, match="empty.csv"):
+        PriceIndex.from_file(path)
+
+
 def test_from_file_unknown_suffix_raises(tmp_path):
     with pytest.raises(ValueError, match="suffix"):
         PriceIndex.from_file(tmp_path / "rates.txt")

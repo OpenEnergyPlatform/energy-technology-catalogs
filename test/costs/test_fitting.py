@@ -15,7 +15,7 @@ import numpy as np
 import pytest
 
 from energy_technology_catalogs.costs import fitting
-from energy_technology_catalogs.costs.core import CostFunction
+from energy_technology_catalogs.costs.core import CostBasis, CostFunction
 from energy_technology_catalogs.costs.fitting import (
     FitResult,
     calibrate_cost_function,
@@ -30,6 +30,11 @@ from energy_technology_catalogs.costs.forms import (
     PiecewiseLinear,
     Polynomial,
     PowerLaw,
+)
+from energy_technology_catalogs.costs.uncertainty import (
+    Distribution,
+    DistributionKind,
+    UncertainCostFunction,
 )
 
 
@@ -68,7 +73,8 @@ def test_fit_recovers_known_form(kind, kwargs, truth):
     assert result.residuals.shape == X.shape
 
 
-def test_fit_rejects_underdetermined_input():  # Review Focus 4
+def test_fit_rejects_underdetermined_input():
+    """Fewer points or distinct sizes than free parameters, or no degree."""
     with pytest.raises(ValueError, match="points"):
         fit_cost_form([1.0, 2.0], [1.0, 2.0], "polynomial", degree=2)
     with pytest.raises(ValueError, match="distinct"):
@@ -77,10 +83,28 @@ def test_fit_rejects_underdetermined_input():  # Review Focus 4
         fit_cost_form([1.0, 2.0], [1.0, 2.0], "polynomial")
 
 
-def test_power_law_fit_with_non_positive_costs_converges():  # Review Focus 4
+def test_power_law_fit_with_non_positive_costs_converges():
+    """Rising data with non-positive costs: no log-linear start is possible."""
     truth = PowerLaw(-50.0, 40.0, 0.5)
     assert np.any(truth.evaluate(X) <= 0)
     assert fit_cost_form(X, truth.evaluate(X), "power_law").rmse < 1e-4
+
+
+def test_power_law_fit_of_falling_data_with_non_positive_costs():
+    """Falling data with non-positive costs need a negative exponent start."""
+    costs = -50.0 + 100.0 * X**-0.4
+    assert np.any(costs <= 0)
+    result = fit_cost_form(X, costs, "power_law")
+    assert result.success and result.rmse < 1e-4
+    assert result.form.exponent == pytest.approx(-0.4, rel=1e-4)
+
+
+def test_exponential_fit_of_falling_data_with_non_positive_costs():
+    truth = Exponential(-5.0, 20.0, -0.3)
+    assert np.any(truth.evaluate(X) <= 0)
+    result = fit_cost_form(X, truth.evaluate(X), "exponential")
+    assert result.rmse < 1e-4
+    assert result.form.rate == pytest.approx(-0.3, rel=1e-4)
 
 
 def test_power_law_fit_with_non_positive_costs_and_other_exponent():
@@ -107,6 +131,8 @@ def test_exponential_fit_with_negative_costs():
         ({"kind": "linear", "loss": "square"}, "loss"),
         ({"kind": "linear", "weights": [1.0, 1.0]}, "weights"),
         ({"kind": "linear", "weights": [1.0, -1.0, 1.0, 1.0, 1.0]}, "weights"),
+        ({"kind": "linear", "weights": [1.0, np.nan, 1.0, 1.0, 1.0]}, "weights"),
+        ({"kind": "linear", "weights": [1.0, np.inf, 1.0, 1.0, 1.0]}, "weights"),
     ],
 )
 def test_fit_rejects_invalid_arguments(kwargs, match):
@@ -115,18 +141,21 @@ def test_fit_rejects_invalid_arguments(kwargs, match):
 
 
 @pytest.mark.parametrize(
-    "sizes", [[0.0, 1.0, 2.0], [-1.0, 1.0, 2.0], [np.nan, 1.0, 2.0]]
+    "sizes",
+    [[0.0, 1.0, 2.0], [-1.0, 1.0, 2.0], [np.nan, 1.0, 2.0], [np.inf, 1.0, 2.0]],
 )
 def test_fit_rejects_non_positive_sizes(sizes):
     with pytest.raises(ValueError, match="positive"):
         fit_cost_form(sizes, [1.0, 2.0, 3.0], "linear")
 
 
-def test_fit_rejects_mismatched_lengths_and_non_finite_costs():
+@pytest.mark.parametrize("bad", [np.inf, np.nan])
+def test_fit_rejects_mismatched_lengths_and_non_finite_costs(bad):
     with pytest.raises(ValueError, match="length"):
         fit_cost_form([1.0, 2.0, 3.0], [1.0, 2.0], "linear")
-    with pytest.raises(ValueError, match="finite"):
-        fit_cost_form([1.0, 2.0, 3.0], [1.0, np.inf, 2.0], "linear")
+    for kind in ("linear", "power_law"):
+        with pytest.raises(ValueError, match="finite"):
+            fit_cost_form([1.0, 2.0, 3.0], [1.0, bad, 2.0], kind)
 
 
 def test_fit_with_fixed_parameter_of_linear_kind():
@@ -332,7 +361,11 @@ def test_calibration_uses_with_form_hook(function, monkeypatch):
     calibrate_cost_function(function, [(20.0, 250.0)], proportional=True)
     for method in ("proportional", "vertical_shift", "coefficient"):
         calibrate_to_point(function, (25.0, 220.0), method)
-    assert len(calls) == 5
+    # per path: one check with the original form before the optimisation,
+    # then the replacement by the calibrated form
+    assert len(calls) == 10
+    assert all(form == function.form for form in calls[0::2])
+    assert all(form != function.form for form in calls[1::2])
 
 
 def test_fit_wraps_solver_failure(monkeypatch):
@@ -353,9 +386,93 @@ def test_fit_reports_solver_status_failure(monkeypatch):
         fit_cost_form(X, PowerLaw(1.0, 2.0, 0.5).evaluate(X), "power_law")
 
 
-def test_calibration_rejects_negative_weight(function):
+@pytest.mark.parametrize("weight", [-1.0, np.nan, np.inf])
+def test_calibration_rejects_invalid_weight(function, weight):
     with pytest.raises(ValueError, match="weight"):
-        calibrate_cost_function(function, [(20.0, 250.0)], weight_functional=-1.0)
+        calibrate_cost_function(function, [(20.0, 250.0)], weight_functional=weight)
+
+
+@pytest.mark.parametrize(
+    "point, match",
+    [
+        ((np.nan, 250.0), "size"),
+        ((np.inf, 250.0), "size"),
+        ((20.0, np.nan), "cost"),
+        ((20.0, np.inf), "cost"),
+    ],
+)
+def test_calibration_rejects_non_finite_data(function, point, match):
+    for proportional in (False, True):
+        with pytest.raises(ValueError, match=match):
+            calibrate_cost_function(
+                function, [(30.0, 180.0), point], proportional=proportional
+            )
+    for method in ("proportional", "vertical_shift", "coefficient"):
+        with pytest.raises(ValueError, match=match):
+            calibrate_to_point(function, point, method)
+
+
+def test_calibration_of_absolute_basis_converts_clipped_points(function):
+    """A clipped point carries the clamped absolute cost at the requested size.
+
+    The clamped absolute cost at 300 is form(200) / 200 * 300 = 127500, so the
+    data lie on the clamped function and the form comes back unchanged.
+    """
+    original = dataclasses.replace(
+        function,
+        form=Linear(5000.0, 400.0),
+        cost_basis=CostBasis.ABSOLUTE,
+        size_min=10.0,
+        size_max=200.0,
+    )
+    points = [(20.0, 13000.0), (100.0, 45000.0), (300.0, 127500.0)]
+    with pytest.warns(UserWarning, match="outside"):
+        clamped = original.calculate_cost(300.0, specific=False)
+    assert clamped == pytest.approx(127500.0)
+    sizes = np.array([20.0, 100.0, 200.0])
+    with pytest.warns(UserWarning, match="clipped"):
+        standard = calibrate_cost_function(original, points)
+    with pytest.warns(UserWarning, match="clipped"):
+        scaled = calibrate_cost_function(original, points, proportional=True)
+    for out in (standard, scaled):
+        assert out.form.evaluate(sizes) == pytest.approx(
+            original.form.evaluate(sizes), rel=1e-6
+        )
+
+
+def _uncertain(function, **fields):
+    values = {f.name: getattr(function, f.name) for f in dataclasses.fields(function)}
+    return UncertainCostFunction(**values, **fields)
+
+
+def test_calibration_refuses_random_parameter_distributions(function):
+    uncertain = _uncertain(
+        function,
+        parameter_uncertainty={
+            "coefficient": Distribution(
+                DistributionKind.NORMAL, mean=1000.0, std_dev=100.0
+            )
+        },
+    )
+    with pytest.raises(ValueError, match="coefficient"):
+        calibrate_cost_function(uncertain, [(20.0, 250.0), (60.0, 140.0)])
+    with pytest.raises(ValueError, match="coefficient"):
+        calibrate_cost_function(uncertain, [(20.0, 250.0)], proportional=True)
+    for method in ("proportional", "vertical_shift", "coefficient"):
+        with pytest.raises(ValueError, match="coefficient"):
+            calibrate_to_point(uncertain, (25.0, 220.0), method)
+
+
+def test_calibration_keeps_output_uncertainty(function):
+    output = Distribution(DistributionKind.NORMAL, mean=0.0, std_dev=0.1)
+    uncertain = _uncertain(function, output_uncertainty=output)
+    for out in (
+        calibrate_cost_function(uncertain, [(20.0, 250.0), (60.0, 140.0)]),
+        calibrate_cost_function(uncertain, [(20.0, 250.0)], proportional=True),
+        calibrate_to_point(uncertain, (25.0, 220.0)),
+    ):
+        assert type(out) is UncertainCostFunction
+        assert out.output_uncertainty == output
 
 
 # ----------------------------------------------------------------------

@@ -340,16 +340,38 @@ def test_parameter_uncertainty(function):
         u.cost_quantiles(25.0, [0.5])
 
 
-def test_deterministic_parameter_keeps_analytical_quantiles(bounded):
-    u = dataclasses.replace(
-        UncertainCostFunction.from_bounds(bounded),
+def test_deterministic_parameter_sets_the_form_value(function):
+    # one object, one parameter value: calculate_cost, quantiles, samples and
+    # files all see the deterministic value (no tax, installation included)
+    u = uncertain(
+        function,
         parameter_uncertainty={
-            "coefficient": Distribution(K.DETERMINISTIC, mean=500.0)
+            "coefficient": Distribution(K.DETERMINISTIC, mean=2000.0)
+        },
+        output_uncertainty=Distribution(K.UNIFORM, lower=-0.1, upper=0.1),
+    )
+    assert u.form == PowerLaw(0.0, 2000.0, -0.5)
+    assert u.parameter_uncertainty == {}
+    assert u.calculate_cost(25.0) == pytest.approx(400.0)
+    assert u.supports_analytical_quantiles
+    assert u.cost_quantiles(25.0, [0.5]) == pytest.approx({0.5: u.calculate_cost(25.0)})
+    assert u.sample_cost(25.0, 2000, rng=2).mean() == pytest.approx(400.0, rel=1e-2)
+    restored = UncertainCostFunction.from_dict(json.loads(json.dumps(u.to_dict())))
+    assert restored == u
+    assert restored.to_dict() == u.to_dict()
+
+
+def test_deterministic_and_random_parameters(function):
+    u = uncertain(
+        function,
+        parameter_uncertainty={
+            "exponent": Distribution(K.DETERMINISTIC, mean=-1.0),
+            "coefficient": Distribution(K.NORMAL, mean=1000.0, std_dev=100.0),
         },
     )
-    assert u.supports_analytical_quantiles
-    assert u.cost_quantiles(25.0, [0.5]) == pytest.approx({0.5: 100.0})
-    assert u.sample_cost(25.0, 1000, rng=2).mean() == pytest.approx(100.0, rel=1e-2)
+    assert u.form == PowerLaw(0.0, 1000.0, -1.0)
+    assert list(u.parameter_uncertainty) == ["coefficient"]
+    assert u.sample_cost(25.0, 20000, rng=3).mean() == pytest.approx(40.0, rel=1e-2)
 
 
 def test_unknown_parameter_name_raises(function):
@@ -396,7 +418,8 @@ def test_identity_hash_and_equality(function, bounded):
         plain,
         parameter_uncertainty={"exponent": Distribution(K.DETERMINISTIC, mean=-0.5)},
     )
-    hash(with_parameter)
+    assert with_parameter == plain
+    assert hash(with_parameter) == hash(plain)
 
 
 def test_dict_round_trip(bounded):
@@ -746,7 +769,8 @@ def test_with_form_refuses_random_parameters(function):
         u.with_form(PowerLaw(0.0, 900.0, -0.5))
 
 
-def test_with_form_drops_deterministic_parameters(function):
+def test_with_form_without_random_parameters(function):
+    # a deterministic entry is part of the form, so it does not block
     output = Distribution(K.UNIFORM, lower=-20.0, upper=20.0)
     u = uncertain(
         function,
