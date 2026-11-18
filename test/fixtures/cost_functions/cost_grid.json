@@ -1,0 +1,8516 @@
+{
+  "functions": [
+    {
+      "component": "Synthetic technology 00",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 100.0,
+      "summand": 0.0,
+      "coefficient": 1000.0,
+      "exponent": -0.5,
+      "tax_rate": 0.0,
+      "pi_included": true,
+      "pi_factor": 0.4,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 01",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 5.0,
+      "validity_range_upper": 50.0,
+      "summand": 0.0,
+      "coefficient": 13000.0,
+      "exponent": -0.9,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.25,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 02",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 5000.0,
+      "summand": 250.0,
+      "coefficient": 4200.0,
+      "exponent": -0.3,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.3,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 03",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 1.0,
+      "validity_range_upper": 1000.0,
+      "summand": 75.5,
+      "coefficient": 880.0,
+      "exponent": -0.15,
+      "tax_rate": 0.19,
+      "pi_included": false,
+      "pi_factor": 1.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 04",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 20.0,
+      "validity_range_upper": 2000.0,
+      "summand": 0.0,
+      "coefficient": 12.5,
+      "exponent": 0.6,
+      "tax_rate": 0.07,
+      "pi_included": true,
+      "pi_factor": 0.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 05",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 50000.0,
+      "summand": 900.0,
+      "coefficient": -0.008,
+      "exponent": 1.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.15,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 06",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 500.0,
+      "summand": 100.0,
+      "coefficient": 0.0,
+      "exponent": 0.0,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.1,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 07",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 0.0,
+      "validity_range_upper": 300.0,
+      "summand": 0.0,
+      "coefficient": 640.0,
+      "exponent": 0.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 2.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 08",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 15.0,
+      "validity_range_upper": 1500.0,
+      "summand": -20.0,
+      "coefficient": 3100.0,
+      "exponent": -0.42,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.55,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 09",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 2.0,
+      "validity_range_upper": 80.0,
+      "summand": 5.0,
+      "coefficient": 150.0,
+      "exponent": 0.25,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.05,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    }
+  ],
+  "cases": [
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 273.8419634264361
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 273.8419634264361
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 273.8419634264361
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 273.8419634264361
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 164.30517805586166
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 164.30517805586166
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 164.30517805586166
+    },
+    {
+      "function": 0,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 164.30517805586166
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 237.13737056616552
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 237.13737056616552
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 237.13737056616552
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 237.13737056616552
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 142.2824223396993
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 142.2824223396993
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 142.2824223396993
+    },
+    {
+      "function": 0,
+      "size": 17.78279410038923,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 142.2824223396993
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 205.35250264571462
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 205.35250264571462
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 205.35250264571462
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 205.35250264571462
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 123.21150158742877
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 123.21150158742877
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 123.21150158742877
+    },
+    {
+      "function": 0,
+      "size": 23.71373705661655,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 123.21150158742877
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 177.8279410038923
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 177.8279410038923
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 177.8279410038923
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 177.8279410038923
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 106.69676460233538
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 106.69676460233538
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 106.69676460233538
+    },
+    {
+      "function": 0,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 106.69676460233538
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 153.9926526059492
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 153.9926526059492
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 153.9926526059492
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 153.9926526059492
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 92.39559156356951
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 92.39559156356951
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 92.39559156356951
+    },
+    {
+      "function": 0,
+      "size": 42.169650342858226,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 92.39559156356951
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 133.3521432163324
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 133.3521432163324
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 133.3521432163324
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 133.3521432163324
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 80.01128592979943
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 80.01128592979943
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 80.01128592979943
+    },
+    {
+      "function": 0,
+      "size": 56.23413251903491,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 80.01128592979943
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 115.47819846894582
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 115.47819846894582
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 115.47819846894582
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 115.47819846894582
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 69.28691908136749
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 69.28691908136749
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 69.28691908136749
+    },
+    {
+      "function": 0,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 69.28691908136749
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 632.4555320336759
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 632.4555320336759
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 379.47331922020555
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 379.47331922020555
+    },
+    {
+      "function": 0,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 353.5533905932738
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 353.5533905932738
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 316.22776601683796
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 212.13203435596427
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 212.13203435596427
+    },
+    {
+      "function": 0,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 189.73665961010278
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 81.64965809277261
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 81.64965809277261
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 48.98979485566357
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 48.98979485566357
+    },
+    {
+      "function": 0,
+      "size": 150.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 50.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 50.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 30.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 30.0
+    },
+    {
+      "function": 0,
+      "size": 400.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 60.0
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 3054.0092520288495
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 3054.0092520288495
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 2566.394329436008
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 2566.394329436008
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2290.506939021637
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 2290.506939021637
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1924.7957470770061
+    },
+    {
+      "function": 1,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1924.7957470770061
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2357.058429233996
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 2357.058429233996
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1980.7213691041984
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1980.7213691041984
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1767.793821925497
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1767.793821925497
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1485.541026828149
+    },
+    {
+      "function": 1,
+      "size": 6.667607160816621,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1485.541026828149
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1819.1576974209343
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1819.1576974209343
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1528.70394741255
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1528.70394741255
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1364.3682730657006
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1364.3682730657006
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1146.5279605594123
+    },
+    {
+      "function": 1,
+      "size": 8.891397050194614,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1146.5279605594123
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1404.0104763806446
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1404.0104763806446
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1179.8407364543232
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1179.8407364543232
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1053.0078572854834
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1053.0078572854834
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 884.8805523407424
+    },
+    {
+      "function": 1,
+      "size": 11.856868528308274,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 884.8805523407424
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1083.6033734630528
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1083.6033734630528
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 910.5910701370192
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 910.5910701370192
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 812.7025300972896
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 812.7025300972896
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 682.9433026027643
+    },
+    {
+      "function": 1,
+      "size": 15.811388300841895,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 682.9433026027643
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 836.3158898980818
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 836.3158898980818
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 702.7864620992284
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 702.7864620992284
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 627.2369174235613
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 627.2369174235613
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 527.0898465744212
+    },
+    {
+      "function": 1,
+      "size": 21.08482517142911,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 527.0898465744212
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 645.4615081722689
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 645.4615081722689
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 542.4046287161923
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 542.4046287161923
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 484.09613112920164
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 484.09613112920164
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 406.8034715371443
+    },
+    {
+      "function": 1,
+      "size": 28.11706625951745,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 406.8034715371443
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 498.16171564406335
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 498.16171564406335
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 418.6232904571961
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 418.6232904571961
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 373.6212867330475
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 373.6212867330475
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 313.96746784289707
+    },
+    {
+      "function": 1,
+      "size": 37.494710466622784,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 313.96746784289707
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 384.4769855233615
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 384.4769855233615
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 323.08990380114415
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 323.08990380114415
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 288.35773914252115
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 288.35773914252115
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 242.3174278508581
+    },
+    {
+      "function": 1,
+      "size": 50.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 242.3174278508581
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 10634.677898661157
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 3054.0092520288495
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 8936.704116521982
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 2566.394329436008
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 7976.008423995868
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 2290.506939021637
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 6702.528087391486
+    },
+    {
+      "function": 1,
+      "size": 1.25,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1924.7957470770061
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 3733.2696537403635
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 3054.0092520288495
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 3137.2013896977846
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 2566.394329436008
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2799.9522403052724
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 2290.506939021637
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 2352.901042273338
+    },
+    {
+      "function": 1,
+      "size": 4.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1924.7957470770061
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 266.9243631701947
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 384.4769855233615
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 224.30618753797873
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 323.08990380114415
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 200.193272377646
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 288.35773914252115
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 168.22964065348404
+    },
+    {
+      "function": 1,
+      "size": 75.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 242.3174278508581
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 110.41202020122607
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 384.4769855233615
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 92.78321025313116
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 323.08990380114415
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 82.80901515091955
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 288.35773914252115
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 69.58740768984836
+    },
+    {
+      "function": 1,
+      "size": 200.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 242.3174278508581
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1509.353281092701
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1509.353281092701
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1509.353281092701
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1509.353281092701
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1161.0409854559239
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1161.0409854559239
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1161.0409854559239
+    },
+    {
+      "function": 2,
+      "size": 163.06894089533097,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1161.0409854559239
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1347.750951900362
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1347.750951900362
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1347.750951900362
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1347.750951900362
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1036.7315014618168
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1036.7315014618168
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1036.7315014618168
+    },
+    {
+      "function": 2,
+      "size": 265.9147948472494,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1036.7315014618168
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1208.1988953904226
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1208.1988953904226
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1208.1988953904226
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1208.1988953904226
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 929.3837656849405
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 929.3837656849405
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 929.3837656849405
+    },
+    {
+      "function": 2,
+      "size": 433.62443964140175,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 929.3837656849405
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1087.6884016773379
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1087.6884016773379
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1087.6884016773379
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1087.6884016773379
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 836.6833859056445
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 836.6833859056445
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 836.6833859056445
+    },
+    {
+      "function": 2,
+      "size": 707.1067811865474,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 836.6833859056445
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 983.6212925413494
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 983.6212925413494
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 983.6212925413494
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 983.6212925413494
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 756.6317634933456
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 756.6317634933456
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 756.6317634933456
+    },
+    {
+      "function": 2,
+      "size": 1153.0715390799683,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 756.6317634933456
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 893.7539053102752
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 893.7539053102752
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 893.7539053102752
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 893.7539053102752
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 687.503004084827
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 687.503004084827
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 687.503004084827
+    },
+    {
+      "function": 2,
+      "size": 1880.3015465431965,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 687.503004084827
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 816.14872001406
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 816.14872001406
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 816.14872001406
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 816.14872001406
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 627.806707703123
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 627.806707703123
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 627.806707703123
+    },
+    {
+      "function": 2,
+      "size": 3066.187817586519,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 627.806707703123
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 5000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2403.7901010777396
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 2403.7901010777396
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1849.069308521338
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1849.069308521338
+    },
+    {
+      "function": 2,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1791.4445525648678
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1791.4445525648678
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1696.489991604231
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1378.0342712037443
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1378.0342712037443
+    },
+    {
+      "function": 2,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1304.9923012340237
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 700.5556185515447
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 700.5556185515447
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 538.8889373473421
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 538.8889373473421
+    },
+    {
+      "function": 2,
+      "size": 7500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 604.8231518187217
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 604.8231518187217
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 749.1325869047907
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 465.24857832209364
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 465.24857832209364
+    },
+    {
+      "function": 2,
+      "size": 20000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 576.2558360806082
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 1.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 848.5946576383992
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 848.5946576383992
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 713.1047543179826
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 713.1047543179826
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 848.5946576383992
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 848.5946576383992
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 713.1047543179826
+    },
+    {
+      "function": 3,
+      "size": 2.371373705661655,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 713.1047543179826
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 754.676533714811
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 754.676533714811
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 634.1819611048832
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 634.1819611048832
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 754.676533714811
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 754.676533714811
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 634.1819611048832
+    },
+    {
+      "function": 3,
+      "size": 5.623413251903491,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 634.1819611048832
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 672.1678975094164
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 672.1678975094164
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 564.8469726969886
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 564.8469726969886
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 672.1678975094164
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 672.1678975094164
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 564.8469726969886
+    },
+    {
+      "function": 3,
+      "size": 13.33521432163324,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 564.8469726969886
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 599.6826863055293
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 599.6826863055293
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 503.9350305088482
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 503.9350305088482
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 599.6826863055293
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 599.6826863055293
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 503.9350305088482
+    },
+    {
+      "function": 3,
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 503.9350305088482
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 536.0032209197153
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 536.0032209197153
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 450.4228747224499
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 450.4228747224499
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 536.0032209197153
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 536.0032209197153
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 450.4228747224499
+    },
+    {
+      "function": 3,
+      "size": 74.98942093324558,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 450.4228747224499
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 480.05974990716754
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 480.05974990716754
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 403.4115545438383
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 403.4115545438383
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 480.05974990716754
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 480.05974990716754
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 403.4115545438383
+    },
+    {
+      "function": 3,
+      "size": 177.82794100389228,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 403.4115545438383
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 430.91247880540686
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 430.91247880540686
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 362.11132672723267
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 362.11132672723267
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 430.91247880540686
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 430.91247880540686
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 362.11132672723267
+    },
+    {
+      "function": 3,
+      "size": 421.6965034285823,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 362.11132672723267
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 1000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1158.9070837435263
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 973.8714989441398
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1158.9070837435263
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 973.8714989441398
+    },
+    {
+      "function": 3,
+      "size": 0.25,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 985.4534461900653
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 828.1121396555171
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 985.4534461900653
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 955.5
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 828.1121396555171
+    },
+    {
+      "function": 3,
+      "size": 0.8,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 802.9411764705883
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 369.31163049973065
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 310.34590798296693
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 369.31163049973065
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 310.34590798296693
+    },
+    {
+      "function": 3,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 329.11426258453946
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 276.5666072138987
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 329.11426258453946
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 387.7357825255464
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 276.5666072138987
+    },
+    {
+      "function": 3,
+      "size": 4000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 325.82838867692976
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 20.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 106.5437578280529
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 106.5437578280529
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 99.57360544677842
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 99.57360544677842
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 106.5437578280529
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 106.5437578280529
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 99.57360544677842
+    },
+    {
+      "function": 4,
+      "size": 35.565588200778464,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 99.57360544677842
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 150.4970580773192
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 150.4970580773192
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 140.6514561470273
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 140.6514561470273
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 150.4970580773192
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 150.4970580773192
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 140.6514561470273
+    },
+    {
+      "function": 4,
+      "size": 63.24555320336759,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 140.6514561470273
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 212.5827448894845
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 212.5827448894845
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 198.6754625135369
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 198.6754625135369
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 212.5827448894845
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 212.5827448894845
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 198.6754625135369
+    },
+    {
+      "function": 4,
+      "size": 112.46826503806983,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 198.6754625135369
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 300.2811084953578
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 300.2811084953578
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 280.6365499956615
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 280.6365499956615
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 300.2811084953578
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 300.2811084953578
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 280.6365499956615
+    },
+    {
+      "function": 4,
+      "size": 200.00000000000003,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 280.6365499956615
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 424.15833969063164
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 424.15833969063164
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 396.40966326227255
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 396.40966326227255
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 424.15833969063164
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 424.15833969063164
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 396.40966326227255
+    },
+    {
+      "function": 4,
+      "size": 355.6558820077846,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 396.40966326227255
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 599.1395796778689
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 599.1395796778689
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 559.9435324092233
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 559.9435324092233
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 599.1395796778689
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 599.1395796778689
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 559.9435324092233
+    },
+    {
+      "function": 4,
+      "size": 632.4555320336759,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 559.9435324092233
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 846.3071507644859
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 846.3071507644859
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 790.9412623967157
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 790.9412623967157
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 846.3071507644859
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 846.3071507644859
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 790.9412623967157
+    },
+    {
+      "function": 4,
+      "size": 1124.6826503806983,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 790.9412623967157
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 32.83159755504709
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 30.683736032754286
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 32.83159755504709
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 30.683736032754286
+    },
+    {
+      "function": 4,
+      "size": 5.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 65.9753955386447
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 61.65924816695767
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 65.9753955386447
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 75.42720420681454
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 61.65924816695767
+    },
+    {
+      "function": 4,
+      "size": 16.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 70.49271421197619
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1524.694261833668
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1424.9479082557643
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1524.694261833668
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1424.9479082557643
+    },
+    {
+      "function": 4,
+      "size": 3000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2746.4013582652938
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 2566.7302413694333
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 2746.4013582652938
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1195.4406247375462
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 2566.7302413694333
+    },
+    {
+      "function": 4,
+      "size": 8000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1117.2342287266786
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 100.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1032.9994054660422
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1032.9994054660422
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1032.9994054660422
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1032.9994054660422
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 898.2603525791673
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 898.2603525791673
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 898.2603525791673
+    },
+    {
+      "function": 5,
+      "size": 217.45592760409818,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 898.2603525791673
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1030.6495885985853
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1030.6495885985853
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1030.6495885985853
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1030.6495885985853
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 896.2170335639873
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 896.2170335639873
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 896.2170335639873
+    },
+    {
+      "function": 5,
+      "size": 472.8708045015879,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 896.2170335639873
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1025.5397725324594
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1025.5397725324594
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1025.5397725324594
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1025.5397725324594
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 891.7737152456169
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 891.7737152456169
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 891.7737152456169
+    },
+    {
+      "function": 5,
+      "size": 1028.2855942978897,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 891.7737152456169
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1014.4281746070019
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1014.4281746070019
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1014.4281746070019
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1014.4281746070019
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 882.1114561800017
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 882.1114561800017
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 882.1114561800017
+    },
+    {
+      "function": 5,
+      "size": 2236.0679774997893,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 882.1114561800017
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 990.2653462665606
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 990.2653462665606
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 990.2653462665606
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 990.2653462665606
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 861.1003011013571
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 861.1003011013571
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 861.1003011013571
+    },
+    {
+      "function": 5,
+      "size": 4862.462362330365,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 861.1003011013571
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 937.7218437634681
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 937.7218437634681
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 937.7218437634681
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 937.7218437634681
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 815.4102989247549
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 815.4102989247549
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 815.4102989247549
+    },
+    {
+      "function": 5,
+      "size": 10573.71263440564,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 815.4102989247549
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 823.4628829996857
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 823.4628829996857
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 823.4628829996857
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 823.4628829996857
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 716.0546808692919
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 716.0546808692919
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 716.0546808692919
+    },
+    {
+      "function": 5,
+      "size": 22993.16489133851,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 716.0546808692919
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 50000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1034.7699999999998
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1034.7699999999998
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 899.8
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 899.8
+    },
+    {
+      "function": 5,
+      "size": 25.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1034.264
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1034.264
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1034.08
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 899.36
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 899.36
+    },
+    {
+      "function": 5,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 899.2
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 345.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 345.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 300.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 300.0
+    },
+    {
+      "function": 5,
+      "size": 75000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": -804.9999999999999
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": -804.9999999999999
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 575.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": -700.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": -700.0
+    },
+    {
+      "function": 5,
+      "size": 200000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 500.0
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 10.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 16.306894089533095,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 26.591479484724942,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 43.362443964140176,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 70.71067811865474,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 115.30715390799683,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 188.03015465431966,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 306.61878175865195,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 2.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 8.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 750.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 100.0
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 84.03361344537815
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 90.0
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 6,
+      "size": 2000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 75.63025210084034
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.001,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.004837713632823584,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.023403473193207163,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.1132193013221996,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.5477225575051662,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 2.649724883447742,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 12.818610191887025,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 62.0127652791432,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 300.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.00025,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 0.0008,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 450.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 1280.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 640.0
+    },
+    {
+      "function": 7,
+      "size": 1200.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 640.0
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 974.0388655174164
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 974.0388655174164
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 818.5200550566525
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 818.5200550566525
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 438.31748948283735
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 438.31748948283735
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 368.33402477549356
+    },
+    {
+      "function": 8,
+      "size": 15.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 368.33402477549356
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 760.5547393916441
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 760.5547393916441
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 639.1216297408774
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 639.1216297408774
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 342.24963272623984
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 342.24963272623984
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 287.60473338339483
+    },
+    {
+      "function": 8,
+      "size": 26.674191150583848,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 287.60473338339483
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 592.9193961340969
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 592.9193961340969
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 498.2515933899974
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 498.2515933899974
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 266.81372826034357
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 266.81372826034357
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 224.2132170254988
+    },
+    {
+      "function": 8,
+      "size": 47.4341649025257,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 224.2132170254988
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 461.2861509881795
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 461.2861509881795
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 387.6354209984702
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 387.6354209984702
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 207.57876794468075
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 207.57876794468075
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 174.43593944931155
+    },
+    {
+      "function": 8,
+      "size": 84.35119877855239,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 174.43593944931155
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 357.92303620024205
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 357.92303620024205
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 300.7756606724723
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 300.7756606724723
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 161.0653662901089
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 161.0653662901089
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 135.34904730261252
+    },
+    {
+      "function": 8,
+      "size": 150.00000000000003,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 135.34904730261252
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 276.7586351644622
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 276.7586351644622
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 232.57028165080857
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 232.57028165080857
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 124.54138582400797
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 124.54138582400797
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 104.65662674286385
+    },
+    {
+      "function": 8,
+      "size": 266.74191150583846,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 104.65662674286385
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 213.0254552093852
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 213.0254552093852
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 179.01298757091195
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 179.01298757091195
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 95.86145484422333
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 95.86145484422333
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 80.55584440691037
+    },
+    {
+      "function": 8,
+      "size": 474.341649025257,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 80.55584440691037
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 162.97989120164246
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 162.97989120164246
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 136.9578917660861
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 136.9578917660861
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 73.3409510407391
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 73.3409510407391
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 61.63105129473874
+    },
+    {
+      "function": 8,
+      "size": 843.5119877855238,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 61.63105129473874
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 123.68233098860364
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 123.68233098860364
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 103.93473192319634
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 103.93473192319634
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 55.65704894487163
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 55.65704894487163
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 46.770629365438346
+    },
+    {
+      "function": 8,
+      "size": 1500.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 46.770629365438346
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1759.3794122297738
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 974.0388655174164
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 1478.4700943107343
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 818.5200550566525
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 791.7207355033981
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 438.31748948283735
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 665.3115424398304
+    },
+    {
+      "function": 8,
+      "size": 3.75,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 368.33402477549356
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 1071.7056815229519
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 974.0388655174164
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 900.5930096831529
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 818.5200550566525
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 482.2675566853283
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 438.31748948283735
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 405.26685435741877
+    },
+    {
+      "function": 8,
+      "size": 12.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 368.33402477549356
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 101.18393101851163
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 123.68233098860364
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 85.02851346093415
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 103.93473192319634
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 45.53276895833023
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 55.65704894487163
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 38.262831057420364
+    },
+    {
+      "function": 8,
+      "size": 2250.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 46.770629365438346
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 60.267210190901196
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 123.68233098860364
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 50.64471444613546
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 103.93473192319634
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 27.120244585905535
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 55.65704894487163
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 22.790121500760954
+    },
+    {
+      "function": 8,
+      "size": 6000.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 46.770629365438346
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 2.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 215.43534492629354
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 215.43534492629354
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 215.43534492629354
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 215.43534492629354
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 205.1765189774224
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 205.1765189774224
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 205.1765189774224
+    },
+    {
+      "function": 9,
+      "size": 3.1716663502744864,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 205.1765189774224
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 241.11679537213055
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 241.11679537213055
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 241.11679537213055
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 241.11679537213055
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 229.6350432115529
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 229.6350432115529
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 229.6350432115529
+    },
+    {
+      "function": 9,
+      "size": 5.029733718731741,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 229.6350432115529
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 269.9361282294804
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 269.9361282294804
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 269.9361282294804
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 269.9361282294804
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 257.0820268852194
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 257.0820268852194
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 257.0820268852194
+    },
+    {
+      "function": 9,
+      "size": 7.97631859327121,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 257.0820268852194
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 302.2767449751891
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 302.2767449751891
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 302.2767449751891
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 302.2767449751891
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 287.88261426208487
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 287.88261426208487
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 287.88261426208487
+    },
+    {
+      "function": 9,
+      "size": 12.649110640673515,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 287.88261426208487
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 338.5688929117808
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 338.5688929117808
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 338.5688929117808
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 338.5688929117808
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 322.44656467788644
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 322.44656467788644
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 322.44656467788644
+    },
+    {
+      "function": 9,
+      "size": 20.05937928996157,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 322.44656467788644
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 379.29538901443226
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 379.29538901443226
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 379.29538901443226
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 379.29538901443226
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 361.2337038232688
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 361.2337038232688
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 361.2337038232688
+    },
+    {
+      "function": 9,
+      "size": 31.81082915068202,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 361.2337038232688
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 424.9980431449405
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 424.9980431449405
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 424.9980431449405
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 424.9980431449405
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 404.76004109041946
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 404.76004109041946
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 404.76004109041946
+    },
+    {
+      "function": 9,
+      "size": 50.44666819577445,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 404.76004109041946
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 80.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 137.69118540246006
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 137.69118540246006
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 131.1344622880572
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 131.1344622880572
+    },
+    {
+      "function": 9,
+      "size": 0.5,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 182.38751743495996
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 182.38751743495996
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 192.5501206129286
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 173.70239755710472
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 173.70239755710472
+    },
+    {
+      "function": 9,
+      "size": 1.6,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 183.38106725040817
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 526.5357698443825
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 526.5357698443825
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 501.46263794703094
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 501.46263794703094
+    },
+    {
+      "function": 9,
+      "size": 120.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 671.3938959675554
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": true,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 671.3938959675554
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": true,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 476.2848660846845
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": true,
+      "cost": 639.4227580643385
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": false,
+      "return_gross": true,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": true,
+      "cost": 639.4227580643385
+    },
+    {
+      "function": 9,
+      "size": 320.0,
+      "include_pi": false,
+      "return_gross": false,
+      "extrapolate": false,
+      "cost": 453.60463436636616
+    }
+  ]
+}

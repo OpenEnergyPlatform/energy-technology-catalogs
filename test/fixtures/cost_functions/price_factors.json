@@ -1,0 +1,76 @@
+{
+  "rates": {
+    "2015": 0.012,
+    "2016": -0.004,
+    "2017": 0.021,
+    "2018": 0.026,
+    "2020": -0.01,
+    "2021": 0.105,
+    "2022": 0.298,
+    "2023": 0.002,
+    "2024": -0.018,
+    "2025": 0.011
+  },
+  "cases": [
+    {
+      "base_year": 2015,
+      "target_year": 2016,
+      "factor": 0.996
+    },
+    {
+      "base_year": 2015,
+      "target_year": 2018,
+      "factor": 1.043355816
+    },
+    {
+      "base_year": 2014,
+      "target_year": 2025,
+      "factor": 1.4914733022362536
+    },
+    {
+      "base_year": 2018,
+      "target_year": 2020,
+      "factor": 0.99
+    },
+    {
+      "base_year": 2020,
+      "target_year": 2023,
+      "factor": 1.43715858
+    },
+    {
+      "base_year": 2022,
+      "target_year": 2022,
+      "factor": 1.0
+    },
+    {
+      "base_year": 2025,
+      "target_year": 2015,
+      "factor": 0.678523711073238
+    },
+    {
+      "base_year": 2023,
+      "target_year": 2020,
+      "factor": 0.6958174372100259
+    },
+    {
+      "base_year": 2020,
+      "target_year": 2018,
+      "factor": 1.0101010101010102
+    },
+    {
+      "base_year": 2016,
+      "target_year": 2015,
+      "factor": 1.0040160642570282
+    },
+    {
+      "base_year": 2021,
+      "target_year": 2025,
+      "factor": 1.291234309992
+    },
+    {
+      "base_year": 2025,
+      "target_year": 2021,
+      "factor": 0.774452779221918
+    }
+  ]
+}

@@ -1,0 +1,5308 @@
+{
+  "functions": [
+    {
+      "component": "Synthetic technology 00",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 100.0,
+      "summand": 0.0,
+      "coefficient": 1000.0,
+      "exponent": -0.5,
+      "tax_rate": 0.0,
+      "pi_included": true,
+      "pi_factor": 0.4,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 01",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 5.0,
+      "validity_range_upper": 50.0,
+      "summand": 0.0,
+      "coefficient": 13000.0,
+      "exponent": -0.9,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.25,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 02",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 5000.0,
+      "summand": 250.0,
+      "coefficient": 4200.0,
+      "exponent": -0.3,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.3,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 03",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 1.0,
+      "validity_range_upper": 1000.0,
+      "summand": 75.5,
+      "coefficient": 880.0,
+      "exponent": -0.15,
+      "tax_rate": 0.19,
+      "pi_included": false,
+      "pi_factor": 1.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 04",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 20.0,
+      "validity_range_upper": 2000.0,
+      "summand": 0.0,
+      "coefficient": 12.5,
+      "exponent": 0.6,
+      "tax_rate": 0.07,
+      "pi_included": true,
+      "pi_factor": 0.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 05",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 50000.0,
+      "summand": 900.0,
+      "coefficient": -0.008,
+      "exponent": 1.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.15,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 06",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 500.0,
+      "summand": 100.0,
+      "coefficient": 0.0,
+      "exponent": 0.0,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.1,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 07",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 0.0,
+      "validity_range_upper": 300.0,
+      "summand": 0.0,
+      "coefficient": 640.0,
+      "exponent": 0.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 2.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 08",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 15.0,
+      "validity_range_upper": 1500.0,
+      "summand": -20.0,
+      "coefficient": 3100.0,
+      "exponent": -0.42,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.55,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 09",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 2.0,
+      "validity_range_upper": 80.0,
+      "summand": 5.0,
+      "coefficient": 150.0,
+      "exponent": 0.25,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.05,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    }
+  ],
+  "cases": [
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -7.512479908898159,
+      "coefficient": 1178.8363142833969
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1145.9798319512122
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -5.217774216838869,
+      "coefficient": 1043.6785517772519
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1013.6772301489676
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -5.166780441807835,
+      "coefficient": 1168.5769422936678
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1145.9796137488338
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -1.103256335930986e-11,
+      "coefficient": 1145.979504669397
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1145.979831975381
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -1.7393033900862807e-10,
+      "coefficient": 1019.5977558100542
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1019.597759271564
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -1.3579079806029173,
+      "coefficient": 1011.3213673928519
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          347.82348710490817
+        ],
+        [
+          31.464265445104555,
+          202.90478573911855
+        ],
+        [
+          90.0,
+          116.58447751370922
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1003.3539643495691
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -4.271370980040974,
+      "coefficient": 938.2432414599648
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 918.4928479840611
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 2.673866084851323,
+      "coefficient": 973.5039231028447
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 988.7923420141037
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -3.187649365683331,
+      "coefficient": 933.2322854825178
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 918.4929269873281
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -8.375468412509927e-12,
+      "coefficient": 918.4929665740456
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 918.4928479850963
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 8.820368380871551e-11,
+      "coefficient": 984.269996943597
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 984.2699944991813
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 0.8268230412749564,
+      "coefficient": 992.1101319952819
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          282.60658327273785
+        ],
+        [
+          18.60394904035566,
+          208.34485705365793
+        ],
+        [
+          31.464265445104555,
+          159.0493039093149
+        ],
+        [
+          53.214508266631675,
+          128.33924430990203
+        ],
+        [
+          90.0,
+          95.50372088755613
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 996.9451344067777
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -3.0258876478826617,
+      "coefficient": 1070.5592650176357
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1056.2879400866284
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -2.861003149785753,
+      "coefficient": 1026.3012696962471
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1010.0441594800637
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -2.386495636886729,
+      "coefficient": 1067.543582453864
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1056.2879000281087
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -7.530040585393286e-12,
+      "coefficient": 1056.287879946954
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1056.2879400684026
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -9.774768435171407e-11,
+      "coefficient": 1013.8321162261196
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1013.8321183358605
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -0.9016963572629164,
+      "coefficient": 1008.1008479780254
+    },
+    {
+      "kind": "adjust",
+      "function": 0,
+      "data_points": [
+        [
+          11.0,
+          326.0845191608514
+        ],
+        [
+          15.6147243714283,
+          257.8269255638791
+        ],
+        [
+          22.16541974506152,
+          229.4480817453564
+        ],
+        [
+          31.464265445104555,
+          182.07246699560991
+        ],
+        [
+          44.66416658861484,
+          161.0895078978288
+        ],
+        [
+          63.401695505525204,
+          128.86247913840015
+        ],
+        [
+          90.0,
+          112.87222811976528
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 1002.8381640214636
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "proportional",
+      "include_pi": true,
+      "summand": 0.0,
+      "coefficient": 1200.0
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "proportional",
+      "include_pi": false,
+      "summand": 0.0,
+      "coefficient": 2000.0
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "vertical_shift",
+      "include_pi": true,
+      "summand": 35.56558820077845,
+      "coefficient": 1000.0
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "vertical_shift",
+      "include_pi": false,
+      "summand": 35.56558820077845,
+      "coefficient": 1000.0
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "coefficient",
+      "include_pi": true,
+      "summand": 0.0,
+      "coefficient": 1200.0
+    },
+    {
+      "kind": "one_point",
+      "function": 0,
+      "data_point": [
+        31.622776601683793,
+        213.39352920467076
+      ],
+      "method": "coefficient",
+      "include_pi": false,
+      "summand": 0.0,
+      "coefficient": 1200.0
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": 249.23306390654838,
+      "coefficient": 5010.240518133969
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 285.85362756224555,
+      "coefficient": 4802.340943045725
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 215.2601997300283,
+      "coefficient": 4582.516992830927
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 253.42995706793786,
+      "coefficient": 4257.623278741356
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": 249.23317196511837,
+      "coefficient": 5010.239824754562
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 285.85362487876426,
+      "coefficient": 4802.3408979632395
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": 249.23322613025525,
+      "coefficient": 5010.239477327683
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 285.8536275576753,
+      "coefficient": 4802.340942968945
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 205.32769317937917,
+      "coefficient": 4697.341212140138
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 254.9100731442276,
+      "coefficient": 4282.489228823024
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 245.07731694472326,
+      "coefficient": 4255.535605602511
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1471.133048441109
+        ],
+        [
+          703.5623639735142,
+          953.282079189131
+        ],
+        [
+          4500.0,
+          648.9368231775632
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 250.46503795675773,
+      "coefficient": 4207.81263767353
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": 211.35970470529352,
+      "coefficient": 3960.821665310476
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 229.35389396161156,
+      "coefficient": 3853.1454185550742
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 269.9541109170733,
+      "coefficient": 3958.0736774110114
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 247.05179513385045,
+      "coefficient": 4150.470158248688
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": 211.359871255784,
+      "coefficient": 3960.820725929116
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 229.35389492846153,
+      "coefficient": 3853.145434798154
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": 211.35995455205145,
+      "coefficient": 3960.820256133399
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 229.35389396161156,
+      "coefficient": 3853.1454185550742
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 274.2885751571429,
+      "coefficient": 3896.9658058122773
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 245.87239764663755,
+      "coefficient": 4130.6562804635105
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 255.39122045032366,
+      "coefficient": 4136.869930651532
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1195.295601858401
+        ],
+        [
+          278.1939252339751,
+          922.1375396422562
+        ],
+        [
+          703.5623639735142,
+          747.2413751699139
+        ],
+        [
+          1779.3343243698787,
+          650.4874952432187
+        ],
+        [
+          4500.0,
+          531.5963373178869
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 249.39090158175782,
+      "coefficient": 4189.767146573531
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": 251.51633492546347,
+      "coefficient": 4508.997991771343
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 263.89932492437845,
+      "coefficient": 4433.508658729558
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 230.86868463712884,
+      "coefficient": 4423.539595681608
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 252.58698268383577,
+      "coefficient": 4243.461309088441
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": 251.51635409154966,
+      "coefficient": 4508.997859165337
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 263.8993244578507,
+      "coefficient": 4433.508650891891
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": 251.51636369519366,
+      "coefficient": 4508.997792730941
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 263.89932492437845,
+      "coefficient": 4433.508658729558
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 227.068001725169,
+      "coefficient": 4473.8388036066435
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 253.55009684734597,
+      "coefficient": 4259.641627035412
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 244.57439820579972,
+      "coefficient": 4262.555342155681
+    },
+    {
+      "kind": "adjust",
+      "function": 2,
+      "data_points": [
+        [
+          110.00000000000001,
+          1379.1872329135397
+        ],
+        [
+          204.1875806048269,
+          1122.3365349654123
+        ],
+        [
+          379.0233461204791,
+          1034.1995447713007
+        ],
+        [
+          703.5623639735142,
+          855.4082116319798
+        ],
+        [
+          1305.9881536760413,
+          794.5747759832518
+        ],
+        [
+          2424.241467251599,
+          672.479254985747
+        ],
+        [
+          4500.0,
+          628.2735635402283
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 250.58463092907374,
+      "coefficient": 4209.821799608439
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "proportional",
+      "include_pi": true,
+      "summand": 357.4613096026564,
+      "coefficient": 6005.350001324627
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "proportional",
+      "include_pi": false,
+      "summand": 464.6997024834533,
+      "coefficient": 7806.955001722015
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "vertical_shift",
+      "include_pi": true,
+      "summand": 968.5426961071607,
+      "coefficient": 4200.0
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "vertical_shift",
+      "include_pi": false,
+      "summand": 968.5426961071607,
+      "coefficient": 4200.0
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "coefficient",
+      "include_pi": true,
+      "summand": 250.0,
+      "coefficient": 9343.9658871394
+    },
+    {
+      "kind": "one_point",
+      "function": 2,
+      "data_point": [
+        707.1067811865476,
+        1555.2260820128051
+      ],
+      "method": "coefficient",
+      "include_pi": false,
+      "summand": 250.0,
+      "coefficient": 9343.9658871394
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": 7.401950961884383,
+      "coefficient": 13.752083927872414
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.854581580612225
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 0.5413773550932833,
+      "coefficient": 12.54594594304659
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.55369468902707
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": 6.438612814801281,
+      "coefficient": 13.765423453780453
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.854581380520365
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": 3.298088665694134e-11,
+      "coefficient": 13.854581280938472
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.854581580612225
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 2.7175246438240973e-11,
+      "coefficient": 12.578976741506095
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.578976742649361
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 0.5399735085490128,
+      "coefficient": 12.500865398655419
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          92.13377563394883
+        ],
+        [
+          198.99748742132397,
+          340.73728445131644
+        ],
+        [
+          1800.0,
+          1241.182093768029
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.508612180591285
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": 1.4720524895383038,
+      "coefficient": 11.366373183474034
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 11.390357380350684
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -2.1913476062580863,
+      "coefficient": 12.476535518323947
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.444915290775736
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": 1.3432549522157633,
+      "coefficient": 11.368471817688386
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 11.390357509289704
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": 1.023500624796836e-11,
+      "coefficient": 11.390357573674125
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 11.390357380350684
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -1.1447085573943381e-10,
+      "coefficient": 12.419374145408469
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.419374144318681
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -0.9903183209664314,
+      "coefficient": 12.504135529051226
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          74.85869270258341
+        ],
+        [
+          66.16603904775566,
+          138.95572683363898
+        ],
+        [
+          198.99748742132397,
+          267.09092991828777
+        ],
+        [
+          598.4943419602085,
+          542.6509240122083
+        ],
+        [
+          1800.0,
+          1016.7520649557786
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.489902001967039
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -3.7729835111738943,
+      "coefficient": 13.29430487097464
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.228250504164476
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": 1.9772657334607653,
+      "coefficient": 12.515951305729248
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.544675072937373
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -3.5206370032310077,
+      "coefficient": 13.289886918591476
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.228250436292216
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -3.5092095318691034e-11,
+      "coefficient": 13.228250399111232
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 13.228250501574232
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": 1.1036425744365619e-10,
+      "coefficient": 12.5650183091157
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.565018309630155
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": 0.8359183313504446,
+      "coefficient": 12.49738544623899
+    },
+    {
+      "kind": "adjust",
+      "function": 4,
+      "data_points": [
+        [
+          22.0,
+          86.37541465682703
+        ],
+        [
+          45.83856199300585,
+          126.39911556633713
+        ],
+        [
+          95.50789843575637,
+          208.18814594922162
+        ],
+        [
+          198.99748742132397,
+          305.75364573806314
+        ],
+        [
+          414.62539380067113,
+          500.66867884152293
+        ],
+        [
+          863.9014462548417,
+          741.2512726248433
+        ],
+        [
+          1800.0,
+          1201.6607306017997
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": 0.0,
+      "coefficient": 12.509419393044244
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "proportional",
+      "include_pi": true,
+      "summand": 0.0,
+      "coefficient": 15.0
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "proportional",
+      "include_pi": false,
+      "summand": 0.0,
+      "coefficient": 15.0
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "vertical_shift",
+      "include_pi": true,
+      "summand": 36.482751499436006,
+      "coefficient": 12.5
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "vertical_shift",
+      "include_pi": false,
+      "summand": 36.482751499436006,
+      "coefficient": 12.5
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "coefficient",
+      "include_pi": true,
+      "summand": 0.0,
+      "coefficient": 14.018691588785048
+    },
+    {
+      "kind": "one_point",
+      "function": 4,
+      "data_point": [
+        200.0,
+        336.7638599947938
+      ],
+      "method": "coefficient",
+      "include_pi": false,
+      "summand": 0.0,
+      "coefficient": 14.018691588785048
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -30.974934681969177,
+      "coefficient": 3601.173281843005
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": -23.017211123845254,
+      "coefficient": 3567.667724196014
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -35.37310190265988,
+      "coefficient": 3337.895440238102
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": -20.730118350555458,
+      "coefficient": 3213.1683443360957
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -30.969159694385784,
+      "coefficient": 3601.148546625479
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": -23.01721053218609,
+      "coefficient": 3567.6676324888444
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -30.966274407288026,
+      "coefficient": 3601.136188439913
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": -23.017211123826588,
+      "coefficient": 3567.667724193121
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -38.98410344812875,
+      "coefficient": 3396.6549661771846
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": -20.976971485666972,
+      "coefficient": 3251.430580278381
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -23.336672370790428,
+      "coefficient": 3152.1488528862383
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1078.6542182325707
+        ],
+        [
+          149.24811556599298,
+          408.2803799700249
+        ],
+        [
+          1350.0,
+          143.98495319155637
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": -20.133282004361636,
+      "coefficient": 3120.6587106760535
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -26.95896887271831,
+      "coefficient": 2903.074269744506
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": -18.46912715254391,
+      "coefficient": 2862.714708644306
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -12.300289098799094,
+      "coefficient": 2967.2994596605045
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": -19.532246937054335,
+      "coefficient": 3027.4982752434216
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -26.956483932002694,
+      "coefficient": 2903.062335021978
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": -18.46912737035554,
+      "coefficient": 2862.7147424051086
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -26.9552422011909,
+      "coefficient": 2903.056371273458
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": -18.469127151234318,
+      "coefficient": 2862.7147084413195
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -10.953345928577567,
+      "coefficient": 2939.3319880881404
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": -19.39135513644266,
+      "coefficient": 3005.660046148612
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -17.222213398213192,
+      "coefficient": 3054.0311867157343
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          876.4065523139636
+        ],
+        [
+          49.62452928581675,
+          522.4760210389908
+        ],
+        [
+          149.24811556599298,
+          320.0353801292511
+        ],
+        [
+          448.8707564701565,
+          204.55339419093593
+        ],
+        [
+          1350.0,
+          117.94965397513778
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": -19.86660421739263,
+      "coefficient": 3079.323653695858
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": false
+      },
+      "summand": -27.608998781524996,
+      "coefficient": 3317.617906209549
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "proportional": true
+      },
+      "summand": -21.197664149899754,
+      "coefficient": 3285.637943234462
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": false
+      },
+      "summand": -27.909902962943196,
+      "coefficient": 3228.238461608019
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 0.5,
+        "proportional": true
+      },
+      "summand": -20.43629070699273,
+      "coefficient": 3167.625059583873
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": false
+      },
+      "summand": -27.606892046631206,
+      "coefficient": 3317.607250100127
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_absolute": 0.2,
+        "proportional": true
+      },
+      "summand": -21.19766401774804,
+      "coefficient": 3285.637922750946
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": false
+      },
+      "summand": -27.605839597516432,
+      "coefficient": 3317.6019266051853
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_relative": 0.3,
+        "proportional": true
+      },
+      "summand": -21.197664149899754,
+      "coefficient": 3285.637943234462
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": false
+      },
+      "summand": -29.27426221740127,
+      "coefficient": 3252.4143077580047
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 0.6,
+        "weight_functional": 0.2,
+        "weight_absolute": 0.1,
+        "weight_relative": 0.1,
+        "proportional": true
+      },
+      "summand": -20.553601722795804,
+      "coefficient": 3185.8082670333492
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": false
+      },
+      "summand": -22.830589588984118,
+      "coefficient": 3145.4726452897457
+    },
+    {
+      "kind": "adjust",
+      "function": 8,
+      "data_points": [
+        [
+          16.5,
+          1011.238329593035
+        ],
+        [
+          34.37892149475439,
+          694.4728052073721
+        ],
+        [
+          71.63092382681728,
+          535.2497715200502
+        ],
+        [
+          149.24811556599298,
+          366.362063547503
+        ],
+        [
+          310.9690453505034,
+          278.0170164616294
+        ],
+        [
+          647.9260846911313,
+          189.22664622716346
+        ],
+        [
+          1350.0,
+          139.40022573365317
+        ]
+      ],
+      "options": {
+        "weight_data": 1.0,
+        "weight_functional": 2.0,
+        "loss": "soft_l1",
+        "f_scale": 50.0,
+        "proportional": true
+      },
+      "summand": -20.128033368508046,
+      "coefficient": 3119.845172118747
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "proportional",
+      "include_pi": true,
+      "summand": -25.329894842906114,
+      "coefficient": 3926.1337006504477
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "proportional",
+      "include_pi": false,
+      "summand": -56.28865520645804,
+      "coefficient": 8724.741557000996
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "vertical_shift",
+      "include_pi": true,
+      "summand": 3.0077566067247403,
+      "coefficient": 3100.0
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "vertical_shift",
+      "include_pi": false,
+      "summand": 3.0077566067247403,
+      "coefficient": 3100.0
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "coefficient",
+      "include_pi": true,
+      "summand": -20.0,
+      "coefficient": 3288.7263771956355
+    },
+    {
+      "kind": "one_point",
+      "function": 8,
+      "data_point": [
+        150.0,
+        380.9307928069668
+      ],
+      "method": "coefficient",
+      "include_pi": false,
+      "summand": -20.0,
+      "coefficient": 3288.7263771956355
+    }
+  ]
+}

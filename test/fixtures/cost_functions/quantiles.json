@@ -1,0 +1,2812 @@
+{
+  "functions": [
+    {
+      "component": "Synthetic technology 00",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 100.0,
+      "summand": 0.0,
+      "coefficient": 1000.0,
+      "exponent": -0.5,
+      "tax_rate": 0.0,
+      "pi_included": true,
+      "pi_factor": 0.4,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 01",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 5.0,
+      "validity_range_upper": 50.0,
+      "summand": 0.0,
+      "coefficient": 13000.0,
+      "exponent": -0.9,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.25,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 02",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 5000.0,
+      "summand": 250.0,
+      "coefficient": 4200.0,
+      "exponent": -0.3,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.3,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 03",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 1.0,
+      "validity_range_upper": 1000.0,
+      "summand": 75.5,
+      "coefficient": 880.0,
+      "exponent": -0.15,
+      "tax_rate": 0.19,
+      "pi_included": false,
+      "pi_factor": 1.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 04",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 20.0,
+      "validity_range_upper": 2000.0,
+      "summand": 0.0,
+      "coefficient": 12.5,
+      "exponent": 0.6,
+      "tax_rate": 0.07,
+      "pi_included": true,
+      "pi_factor": 0.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 05",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 100.0,
+      "validity_range_upper": 50000.0,
+      "summand": 900.0,
+      "coefficient": -0.008,
+      "exponent": 1.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.15,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 06",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 10.0,
+      "validity_range_upper": 500.0,
+      "summand": 100.0,
+      "coefficient": 0.0,
+      "exponent": 0.0,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.1,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 07",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2030,
+      "reference_year": 2025,
+      "validity_range_lower": 0.0,
+      "validity_range_upper": 300.0,
+      "summand": 0.0,
+      "coefficient": 640.0,
+      "exponent": 0.0,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 2.0,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 08",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2035,
+      "reference_year": 2025,
+      "validity_range_lower": 15.0,
+      "validity_range_upper": 1500.0,
+      "summand": -20.0,
+      "coefficient": 3100.0,
+      "exponent": -0.42,
+      "tax_rate": 0.19,
+      "pi_included": true,
+      "pi_factor": 0.55,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.2,
+      "currency": "EUR"
+    },
+    {
+      "component": "Synthetic technology 09",
+      "source": "Synthetic parameter set",
+      "technology_type": "boiler",
+      "reference_unit": "kW",
+      "investment_year": 2025,
+      "reference_year": 2025,
+      "validity_range_lower": 2.0,
+      "validity_range_upper": 80.0,
+      "summand": 5.0,
+      "coefficient": 150.0,
+      "exponent": 0.25,
+      "tax_rate": 0.0,
+      "pi_included": false,
+      "pi_factor": 1.05,
+      "uncertainty_lower": -0.2,
+      "uncertainty_upper": 0.30000000000000004,
+      "currency": "EUR"
+    }
+  ],
+  "cases": [
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        160.3279410038923,
+        170.3279410038923,
+        182.8279410038923,
+        195.3279410038923,
+        205.3279410038923
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        89.19676460233538,
+        99.19676460233538,
+        111.69676460233538,
+        124.19676460233538,
+        134.19676460233538
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        146.70805132821116,
+        164.49084542860038,
+        186.71933805408693,
+        208.94783067957346,
+        226.73062477996268
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        88.02483079692668,
+        98.69450725716023,
+        112.03160283245215,
+        125.36869840774408,
+        136.0383748679776
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        137.81665427801653,
+        155.59944837840578,
+        177.8279410038923,
+        200.05643362937883,
+        217.83922772976806
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        82.6899925668099,
+        93.35966902704345,
+        106.69676460233538,
+        120.0338601776273,
+        130.70353663786082
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -17.5,
+        -7.5,
+        5.0,
+        17.5,
+        27.5
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -17.5,
+        -7.5,
+        5.0,
+        17.5,
+        27.5
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        172.30007695889188,
+        177.8279410038923,
+        183.33304357606053,
+        190.50743292820354,
+        200.08197431147747
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        101.16890055733495,
+        106.69676460233538,
+        112.2018671745036,
+        119.37625652664661,
+        128.95079790992054
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        167.9978541911736,
+        177.8279410038923,
+        187.6175515581314,
+        200.37562042264977,
+        217.40183022509137
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        100.79871251470415,
+        106.69676460233538,
+        112.57053093487882,
+        120.22537225358987,
+        130.44109813505483
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        156.14265812424745,
+        165.97274493696617,
+        175.76235549120523,
+        188.52042435572363,
+        205.54663415816523
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        93.68559487454846,
+        99.58364696217969,
+        105.45741329472314,
+        113.11225461343417,
+        123.32798049489912
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -5.52786404500042,
+        0.0,
+        5.505102572168221,
+        12.679491924311229,
+        22.25403330758516
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -5.52786404500042,
+        0.0,
+        5.505102572168221,
+        12.679491924311229,
+        22.25403330758516
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        166.66911198828052,
+        174.43202300232366,
+        179.8279410038923,
+        185.22385900546095,
+        192.9867700195041
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        95.53793558672359,
+        103.30084660076672,
+        108.69676460233538,
+        114.09268260390404,
+        121.85559361794715
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        157.98442512528496,
+        171.78904994352223,
+        181.38449982397015,
+        190.97994970441806,
+        204.78457452265533
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        94.79065507517097,
+        103.07342996611334,
+        108.8306998943821,
+        114.58796982265082,
+        122.8707447135932
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        154.42786630520712,
+        168.2324911234444,
+        177.8279410038923,
+        187.4233908843402,
+        201.2280157025775
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        92.65671978312427,
+        100.93949467406662,
+        106.69676460233538,
+        112.45403453060412,
+        120.73680942154648
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.8411709843882,
+        146.60408199843135,
+        152.0,
+        157.39591800156865,
+        165.1588290156118
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.8411709843882,
+        146.60408199843135,
+        152.0,
+        157.39591800156865,
+        165.1588290156118
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        166.31501553892207,
+        174.36220510109257,
+        177.8279410038923,
+        181.29367690669204,
+        189.34086646886254
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        95.18383913736515,
+        103.23102869953566,
+        106.69676460233538,
+        110.1625005051351,
+        118.2096900673056
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        157.35474270022297,
+        171.66489420731088,
+        177.8279410038923,
+        183.99098780047373,
+        198.30113930756164
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        94.41284562013377,
+        102.99893652438654,
+        106.69676460233538,
+        110.39459268028422,
+        118.98068358453699
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        157.35474270022297,
+        171.66489420731088,
+        177.8279410038923,
+        183.99098780047373,
+        198.30113930756164
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        94.41284562013377,
+        102.99893652438654,
+        106.69676460233538,
+        110.39459268028422,
+        118.98068358453699
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 177.8279410038923,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.48707453502976,
+        146.53426409720026,
+        150.0,
+        153.46573590279974,
+        161.51292546497024
+      ]
+    },
+    {
+      "function": 0,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 31.622776601683793,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 106.69676460233538,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.48707453502976,
+        146.53426409720026,
+        150.0,
+        153.46573590279974,
+        161.51292546497024
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        895.885187784078,
+        904.2885491286158,
+        914.7927508092881,
+        925.2969524899604,
+        933.7003138344982
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        795.2025300972896,
+        805.2025300972896,
+        817.7025300972896,
+        830.2025300972896,
+        840.2025300972896
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        751.2376328630407,
+        842.2967398767428,
+        956.1206236438701,
+        1069.9445074109974,
+        1161.0036144246994
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        670.4795873302638,
+        751.7498403399929,
+        853.3376566021541,
+        954.9254728643153,
+        1036.1957258740442
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        705.7080793561897,
+        796.7671863698918,
+        910.5910701370192,
+        1024.4149539041466,
+        1115.4740609178484
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        629.8444608253993,
+        711.1147138351284,
+        812.7025300972896,
+        914.2903463594507,
+        995.5605993691796
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -14.705882352941178,
+        -6.302521008403362,
+        4.201680672268908,
+        14.705882352941178,
+        23.10924369747899
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -17.5,
+        -7.5,
+        5.0,
+        17.5,
+        27.5
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        905.9458062336575,
+        910.5910701370192,
+        915.2172067522865,
+        921.2461053675328,
+        929.291938462721
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        807.1746660522891,
+        812.7025300972896,
+        818.2076326694578,
+        825.3820220216008,
+        834.9565634048747
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        860.2548337739304,
+        910.5910701370192,
+        960.7200425610663,
+        1026.049391338542,
+        1113.2343101812075
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        767.7774391432328,
+        812.7025300972896,
+        857.4426379857517,
+        915.7490817696486,
+        993.5616218367277
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        799.5487624314624,
+        849.8849987945513,
+        900.0139712185985,
+        965.3433199960739,
+        1052.5282388387398
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        713.5972704700802,
+        758.522361424137,
+        803.2624693125991,
+        861.5689130964959,
+        939.381453163575
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -4.645263903361698,
+        0.0,
+        4.626136615267413,
+        10.655035230513638,
+        18.700868325701816
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -5.52786404500042,
+        0.0,
+        5.505102572168221,
+        12.679491924311229,
+        22.25403330758516
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        901.2139028970093,
+        907.737357530659,
+        912.2717424059267,
+        916.8061272811944,
+        923.3295819148441
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        801.5437010816778,
+        809.3066120957209,
+        814.7025300972896,
+        820.0984480988583,
+        827.8613591129014
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        808.9797695889997,
+        879.6681440655595,
+        928.8028915397596,
+        977.9376390139596,
+        1048.6260134905194
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        722.0144443581821,
+        785.1038185785118,
+        828.9565806992354,
+        872.8093428199588,
+        935.8987170402886
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        790.7679481862592,
+        861.4563226628192,
+        910.5910701370192,
+        959.7258176112192,
+        1030.4141920877792
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        705.7603937562363,
+        768.849767976566,
+        812.7025300972896,
+        856.555292218013,
+        919.6446664383428
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        116.67325292805732,
+        123.19670756170703,
+        127.73109243697479,
+        132.26547731224255,
+        138.78893194589227
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.8411709843882,
+        146.60408199843135,
+        152.0,
+        157.39591800156865,
+        165.1588290156118
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        900.9163428555315,
+        907.6786870254228,
+        910.5910701370192,
+        913.5034532486155,
+        920.2657974185068
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        801.1896046323194,
+        809.2367941944899,
+        812.7025300972896,
+        816.1682660000893,
+        824.2154555622598
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        805.7553989414695,
+        879.0323884915922,
+        910.5910701370192,
+        942.1497517824461,
+        1015.4267413325689
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        719.1366935552614,
+        784.5364067287461,
+        812.7025300972896,
+        840.8686534658331,
+        906.2683666393177
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        805.7553989414695,
+        879.0323884915922,
+        910.5910701370192,
+        942.1497517824461,
+        1015.4267413325689
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        719.1366935552614,
+        784.5364067287461,
+        812.7025300972896,
+        840.8686534658331,
+        906.2683666393177
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 910.5910701370192,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        116.37569288657964,
+        123.13803705647082,
+        126.05042016806723,
+        128.96280327966366,
+        135.72514744955484
+      ]
+    },
+    {
+      "function": 1,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 15.811388300841896,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 812.7025300972896,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.48707453502976,
+        146.53426409720026,
+        150.0,
+        153.46573590279974,
+        161.51292546497024
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        1070.1884016773377,
+        1080.1884016773377,
+        1092.6884016773377,
+        1105.1884016773377,
+        1115.1884016773377
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        819.1833859056444,
+        829.1833859056444,
+        841.6833859056444,
+        854.1833859056444,
+        864.1833859056444
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        897.3429313838035,
+        1006.1117715515373,
+        1142.0728217612045,
+        1278.0338719708718,
+        1386.8027121386053
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        690.2637933721566,
+        773.9321319627211,
+        878.5175552009266,
+        983.1029784391322,
+        1066.7713170296965
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        842.9585112999366,
+        951.7273514676705,
+        1087.6884016773377,
+        1223.649451887005,
+        1332.4182920547385
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -0.2,
+        "max_val": 0.3
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        648.4296240768743,
+        732.0979626674389,
+        836.6833859056444,
+        941.2688091438499,
+        1024.9371477344143
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -17.5,
+        -7.5,
+        5.0,
+        17.5,
+        27.5
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "uniform",
+        "min_val": -20.0,
+        "max_val": 30.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -17.5,
+        -7.5,
+        5.0,
+        17.5,
+        27.5
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        1082.1605376323373,
+        1087.6884016773377,
+        1093.1935042495058,
+        1100.3678936016488,
+        1109.9424349849228
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        831.155521860644,
+        836.6833859056444,
+        842.1884884778126,
+        849.3628778299557,
+        858.9374192132295
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        1027.5624655993763,
+        1087.6884016773377,
+        1147.5667638552522,
+        1225.6017647296856,
+        1329.7429408693529
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        790.4326658456741,
+        836.6833859056444,
+        882.7436645040402,
+        942.7705882536044,
+        1022.8791852841177
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        955.0499054875539,
+        1015.1758415655152,
+        1075.0542037434298,
+        1153.089204617863,
+        1257.2303807575304
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -0.1,
+        "max_val": 0.3,
+        "mode": 0.0
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        734.6537734519645,
+        780.9044935119348,
+        826.9647721103306,
+        886.9916958598948,
+        967.1002928904081
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -5.52786404500042,
+        0.0,
+        5.505102572168221,
+        12.679491924311229,
+        22.25403330758516
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "triangular",
+        "min_val": -10.0,
+        "max_val": 30.0,
+        "mode": 0.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        -5.52786404500042,
+        0.0,
+        5.505102572168221,
+        12.679491924311229,
+        22.25403330758516
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        1076.529572661726,
+        1084.292483675769,
+        1089.6884016773377,
+        1095.0843196789062,
+        1102.8472306929493
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 2.0,
+        "std_dev": 8.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        825.5245568900326,
+        833.2874679040757,
+        838.6833859056444,
+        844.0793039072131,
+        851.8422149212562
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        966.3151127115228,
+        1050.7513954438025,
+        1109.4421697108844,
+        1168.132943977966,
+        1252.569226710246
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        743.3193174704022,
+        808.2703041875405,
+        853.4170536237573,
+        898.563803059974,
+        963.5147897771124
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        944.5613446779761,
+        1028.9976274102557,
+        1087.6884016773377,
+        1146.3791759444193,
+        1230.815458676699
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 0.02,
+        "std_dev": 0.08
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        726.5856497522893,
+        791.5366364694275,
+        836.6833859056444,
+        881.8301353418611,
+        946.7811220589995
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.8411709843882,
+        146.60408199843135,
+        152.0,
+        157.39591800156865,
+        165.1588290156118
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "normal",
+        "mean": 152.0,
+        "std_dev": 8.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.8411709843882,
+        146.60408199843135,
+        152.0,
+        157.39591800156865,
+        165.1588290156118
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        1076.1754762123674,
+        1084.222665774538,
+        1087.6884016773377,
+        1091.1541375801373,
+        1099.201327142308
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 5.0
+      },
+      "mode": "absolute",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        825.1704604406742,
+        833.2176500028447,
+        836.6833859056444,
+        840.1491218084441,
+        848.1963113706146
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        962.4636467010998,
+        1049.9919942298177,
+        1087.6884016773377,
+        1125.3848091248576,
+        1212.9131566535755
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        740.3566513085384,
+        807.6861494075521,
+        836.6833859056444,
+        865.6806224037367,
+        933.0101205027504
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        962.4636467010998,
+        1049.9919942298177,
+        1087.6884016773377,
+        1125.3848091248576,
+        1212.9131566535755
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 0.0,
+        "scale": 0.05
+      },
+      "mode": "relative_mean_preserving",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        740.3566513085384,
+        807.6861494075521,
+        836.6833859056444,
+        865.6806224037367,
+        933.0101205027504
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": true,
+      "return_gross": false,
+      "deterministic_cost": 1087.6884016773377,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.48707453502976,
+        146.53426409720026,
+        150.0,
+        153.46573590279974,
+        161.51292546497024
+      ]
+    },
+    {
+      "function": 2,
+      "distribution": {
+        "distribution": "laplace",
+        "mean": 150.0,
+        "scale": 5.0
+      },
+      "mode": "direct",
+      "size": 707.1067811865476,
+      "include_pi": false,
+      "return_gross": true,
+      "deterministic_cost": 836.6833859056444,
+      "probabilities": [
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "quantiles": [
+        138.48707453502976,
+        146.53426409720026,
+        150.0,
+        153.46573590279974,
+        161.51292546497024
+      ]
+    }
+  ]
+}
