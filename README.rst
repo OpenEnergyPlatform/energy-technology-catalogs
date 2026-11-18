@@ -1,12 +1,7 @@
 ..
   SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-  SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/OpenEnergyPlatform/energy-technology-catalogs>
+  SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
   SPDX-License-Identifier: MIT
-
-.. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
-    :align: left
-    :target: https://github.com/OpenEnergyPlatform/energy-technology-catalogs/
-    :alt: Repo logo
 
 ==========================
 energy-technology-catalogs
@@ -66,7 +61,7 @@ License and Citation
 | The code of this repository is licensed under the **MIT License** (MIT).
 | See `LICENSE.txt <https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/LICENSE.txt>`_ for rights and obligations.
 | See the *Cite this repository* function or `CITATION.cff <https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/CITATION.cff>`_ for citation of this repository.
-| Copyright: `energy-technology-catalogs <https://github.com/OpenEnergyPlatform/energy-technology-catalogs/>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
+| Copyright: `energy-technology-catalogs <https://github.com/OpenEnergyPlatform/energy-technology-catalogs/>`_ © `energy-technology-catalogs contributors <https://github.com/OpenEnergyPlatform/energy-technology-catalogs/graphs/contributors>`_ | `MIT <LICENSE.txt>`_
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/energy-technology-catalogs
@@ -78,7 +73,7 @@ License and Citation
     :alt: REUSE
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/energy-technology-catalogs/documentation.yml?branch=develop&label=documentation
-    :target: https://rl-institut.github.io/energy-technology-catalogs/
+    :target: https://openenergyplatform.github.io/energy-technology-catalogs/
     :alt: Documentation
 
 .. |badge_mkdocs| image:: https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=flat&logo=MaterialForMkDocs&logoColor=white&color=grey

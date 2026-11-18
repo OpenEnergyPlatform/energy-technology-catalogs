@@ -1,4 +1,5 @@
 <!--
+SPDX-FileCopyrightText: 2026 energy-technology-catalogs contributors <https://github.com/OpenEnergyPlatform/energy-technology-catalogs>
 SPDX-FileCopyrightText: 2026 Jonathan Amme <https://github.com/nesnoj> © Reiner Lemoine Institut
 SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: MIT
@@ -8,12 +9,9 @@ SPDX-License-Identifier: MIT
 
 This file provides guidance to AI coding agents (e.g. Claude Code, Codex, Copilot) working in this repository. `CLAUDE.md` is a symlink to this file.
 
-<!-- Adapt this section to your project -->
 ## About this repository
 
-`super-repo` is a **template repository** for research software by the Reiner Lemoine Institut (RLI). Its main product is the repository scaffolding itself (CI workflows, REUSE licensing, citation files, issue/PR templates, release procedure, MkDocs documentation), not the Python code. The `super_repo/` package only holds small examples (`example_calculator.py` for TDD demos, `example_google.py` for Google-style docstrings, `example.json` as OEMetadata sample). Most changes affect documentation and configuration rather than code.
-
-If a user wants to create a new repository based on this template, follow [Deriving a new repository from this template](#deriving-a-new-repository-from-this-template).
+`energy-technology-catalogs` integrates techno-economic data from established energy technology catalogs and publishes it in interoperable form on the Open Energy Platform (OEP). The package `energy_technology_catalogs` provides access to and evaluation of the catalog data. The repository scaffolding (CI workflows, REUSE licensing, citation files, issue/PR templates, release procedure, MkDocs documentation) comes from the RLI super-repo template v0.5.0.
 
 ## Commands
 
@@ -29,13 +27,13 @@ Tests and linting run via tox (same as the CI jobs in `.github/workflows/tox.yml
 ```bash
 tox                 # runs envs: test, lint
 tox -e test         # pytest with coverage
-tox -e lint         # ruff format --check + ruff check on super_repo and test
-tox -e test -- test/test_example.py::test_division_zero   # single test
+tox -e lint         # ruff format --check + ruff check on energy_technology_catalogs and test
+tox -e test -- test/test_package.py   # single test file
 ```
 
-Without tox: `pytest test/test_example.py::test_addition`.
+Without tox: `pytest test/test_package.py`.
 
-Formatting and lint fixes: `ruff format super_repo test` and `ruff check --fix super_repo test`. `pre-commit run --all-files` additionally runs mypy, REUSE compliance, JSON formatting (no key sorting), link checks and checks for large files and private keys.
+Formatting and lint fixes: `ruff format energy_technology_catalogs test` and `ruff check --fix energy_technology_catalogs test`. `pre-commit run --all-files` additionally runs mypy, REUSE compliance, JSON formatting (no key sorting), link checks and checks for large files and private keys.
 
 Documentation (MkDocs Material + mike, sources in `docs/`, navigation defined in `mkdocs.yml`):
 
@@ -51,10 +49,10 @@ Build and release: `python -m build`, `twine check dist/*`, version bumps via `b
 ## Conventions
 
 - **REUSE / SPDX headers are mandatory.** Every file needs `SPDX-FileCopyrightText` and `SPDX-License-Identifier` (enforced by the `reuse` pre-commit hook and the `reuse.yml` workflow). Python files carry them in the module docstring, Markdown files in an HTML comment at the top, config files as `#` comments. Files that cannot hold a header (e.g. empty files) are annotated in `REUSE.toml`. Licensing: code MIT, `docs/**` CC-BY-4.0, templates and CHANGELOG CC0-1.0.
-- **Docstrings** in `super_repo/` use reST-style `:param:`/`:return:` fields. `example_google.py` is a third-party example (BSD-2-Clause), do not restyle it.
+- **Docstrings** in `energy_technology_catalogs/` use reST-style `:param:`/`:return:` fields.
 - **Branches**: `develop` (integration, PR target), `production` (latest release), `gh-pages` (built docs). Working branches are named `type-issuenr-short-description` with type `feature`, `enhance`, `bug`, `hotfix` or `release`, e.g. `feature-42-add-new-ontology-class`.
 - **Commit messages**: imperative mood, subject shorter than 50 characters, no trailing period, always ending with the issue number, e.g. `Add function with some method #42`.
-- **CHANGELOG.md** (Keep a Changelog format): add an entry under `[Unreleased]` in Added/Changed/Removed with the PR link, e.g. `- Update documentation [(#93)](https://github.com/rl-institut/super-repo/pull/93)`.
+- **CHANGELOG.md** (Keep a Changelog format): add an entry under `[Unreleased]` in Added/Changed/Removed with the PR link, e.g. `- Update documentation [(#93)](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/pull/93)`.
 - New documentation pages must be added to `nav` in `mkdocs.yml`.
 
 <!-- Keep this section in derived repositories -->
@@ -84,18 +82,3 @@ ln -s ../../.agents/skills/<skill-name> .claude/skills/<skill-name>
 ```
 
 On Windows, git checks out symlinks as plain text files unless symlinks are enabled (Developer Mode and `git config core.symlinks true`).
-
-<!-- Delete this section once the new repository has been set up -->
-## Deriving a new repository from this template
-
-Use this checklist when setting up a new repository based on `super-repo`. Ask the user for the project name, package name, GitHub organisation, authors and description first. Work through the list step by step and let the user review the result.
-
-1. **Names and URLs**: replace `super-repo`, `super_repo`, `Super Repo` and `rl-institut/super-repo` with the new project and package names in all files (`git grep -i "super.repo"`), including `pyproject.toml`, `mkdocs.yml`, `tox.ini`, `README.rst`, `CONTRIBUTING.md`, `RELEASE_PROCEDURE.md`, `.github/` templates and `docs/`.
-2. **Package and tests**: rename the `super_repo/` package, remove the example modules and tests (`example_*.py`, `example.json`, `test/test_example.py`) or replace them with first code, and update `docs/user_documentation/`.
-3. **Metadata**: set authors, title, description, URLs and version (e.g. `0.1.0`) in `pyproject.toml`, `CITATION.cff`, `.bumpversion.toml` and `uv.lock`. Reset `USERS.cff`.
-4. **Licensing**: check `LICENSE.txt` and `REUSE.toml` (package name, supplier, annotations). Add the copyright of the new authors to the SPDX headers and replace the `super-repo vX.Y.Z` line with the new project where files are substantially changed. Run `reuse lint`.
-5. **CHANGELOG.md**: remove the super-repo history and start with an empty `[Unreleased]` section.
-6. **README and badges**: update the introduction and all badge URLs (incl. the Codecov token).
-7. **GitHub**: create the `develop` and `production` branches, import the labels from `docs/development/collaboration/github-labels.json`, and set up the secrets used by the workflows (Codecov, PyPI).
-8. **AGENTS.md**: rewrite the project-specific sections ("About this repository", "Commands", "Conventions"), keep "Rules for AI agents" and "Skills", and delete this section.
-9. **Verify**: run `tox`, `pre-commit run --all-files` and `mkdocs build --strict`.

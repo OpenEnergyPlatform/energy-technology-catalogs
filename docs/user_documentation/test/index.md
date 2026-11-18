@@ -10,8 +10,4 @@ Automated tests with tox:
 
 ## Unit Tests
 
-!!! note "About the example"
-    Below you see the rendered version of the example test
-    `test\test_example.py`
-
-::: test.test_example
+Unit tests are in test/ and run with tox -e test.

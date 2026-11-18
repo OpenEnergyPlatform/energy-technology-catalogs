@@ -13,7 +13,7 @@ SPDX-License-Identifier: MIT
 
 ## Types of interaction
 
-This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). <br>
+This repository is following the [Contributor Covenant Code of Conduct](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/main/CODE_OF_CONDUCT.md). <br>
 Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
@@ -21,13 +21,13 @@ Please be self-reflective and always maintain a good culture of discussion and a
 Since the open license allows free use, no notification is required.
 However, for the authors it is valuable information who uses the software for what purpose.
 Indicators are `Watch`, `Fork` and `Starred` of the repository.<br>
-If you are a user, please add your name and details in [`📝USERS.cff`](https://github.com/rl-institut/super-repo/blob/production/USERS.cff).
+If you are a user, please add your name and details in [`📝USERS.cff`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/USERS.cff).
 
 ### B. Comment
 
 You can give ideas, hints or report bugs in issues, in PR, at meetings or other channels.
 This is no development but can be considered a notable contribution.
-If you wish, add your name and details to [`📝CITATION.cff`](https://github.com/rl-institut/super-repo/blob/production/CITATION.cff).
+If you wish, add your name and details to [`📝CITATION.cff`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/CITATION.cff).
 
 ### C. Contribute and Review
 
@@ -42,7 +42,7 @@ You coordinate and carry out the release.
 
 ## Use of AI tools
 
-AI tools may be used for contributions under the conditions of the [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md).<br>
+AI tools may be used for contributions under the conditions of the [`📝AI_COVENANT.md`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/AI_COVENANT.md).<br>
 You own everything you contribute, regardless of what tools helped create it.
 A human is always in the loop: AI tools must not commit, push or post autonomously.<br>
 Good first issues are reserved for newcomers and must not be solved with AI tools.<br>
@@ -55,7 +55,7 @@ The workflow for contributing has been inspired by the workflow described by [Vi
 ### 1. 🐙 Describe the issue on GitHub
 
 Create an [GitHub Issue](https://help.github.com/en/articles/creating-an-issue)
-in the repository. Choose a suitable [Issue Template](https://rl-institut.github.io/super-repo/develop/development/collaboration/git/#issue-templates)
+in the repository. Choose a suitable [Issue Template](https://openenergyplatform.github.io/energy-technology-catalogs/develop/development/collaboration/git/#issue-templates)
 for a `Feature` or a `Bug` and fill in as much information as possible.<br>
 Most important is the `Issue Title`, it describes the problem you will address. <br>
 Update the `GitHub Labels` and assign to a `GitHub Project` and `Milestone`. <br>
@@ -131,7 +131,7 @@ Examples of branch names:
 - Commit regularly with: 💠`git commit filename.md`
 - Add REUSE license information
 - Commit under your own name, never under an AI tool or bot account
-- Do not add AI co-author or similar trailers (e.g. `Co-authored-by:`, `Assisted-by:`), see [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md)
+- Do not add AI co-author or similar trailers (e.g. `Co-authored-by:`, `Assisted-by:`), see [`📝AI_COVENANT.md`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/AI_COVENANT.md)
 
 #### Write a good `commit message`
 
@@ -163,9 +163,9 @@ Examples of commit message: `Add function with some method #42` or `Update docum
 
 - Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request)
 - The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`
-- Use the [Pull Request Template](https://github.com/rl-institut/super-repo/blob/production/.github/pull_request_template.md)
+- Use the [Pull Request Template](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/.github/pull_request_template.md)
 - Check that all tests pass
-- Disclose AI-proposed changes you do not fully understand in the PR description, see [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md)
+- Disclose AI-proposed changes you do not fully understand in the PR description, see [`📝AI_COVENANT.md`](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/AI_COVENANT.md)
 - Assign a reviewer and get in contact
 
 #### 4.0. 🐙 Let someone else review your PR

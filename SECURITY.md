@@ -14,7 +14,7 @@ Your contributions help us maintain the security and integrity of our project.
 
 ### How to Report a Vulnerability
 
-To report a security vulnerability, please use the GitHub Security Advisory ["Report a Vulnerability"](https://github.com/rl-institut/super-repo/security/advisories/new) tab in this repository.
+To report a security vulnerability, please use the GitHub Security Advisory ["Report a Vulnerability"](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/security/advisories/new) tab in this repository.
 
 ### What to Expect
 

@@ -30,4 +30,4 @@ Describe possible ideas for solution and evaluate advantages and disadvantages.
 
 ## Workflow checklist
 
-- [ ] I am aware of the workflow in [CONTRIBUTING.md](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md)
+- [ ] I am aware of the workflow in [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/energy-technology-catalogs/blob/production/CONTRIBUTING.md)
