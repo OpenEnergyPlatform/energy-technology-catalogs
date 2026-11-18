@@ -77,8 +77,12 @@ class CostForm(ABC):
         """
 
     @abstractmethod
-    def _offset_parameter_names(self) -> tuple[str, ...]:
-        """Names of the parameters that shift the output when increased."""
+    def offset_parameter_names(self) -> tuple[str, ...]:
+        """Names of the parameters that are added to the output.
+
+        :return: Parameter names; adding a value to all of them adds that
+            value to the output.
+        """
 
     def parameters(self) -> dict[str, float]:
         """Return all named parameters.
@@ -158,7 +162,7 @@ class CostForm(ABC):
         """
         values = self.parameters()
         return self.with_parameters(
-            **{name: values[name] + delta for name in self._offset_parameter_names()}
+            **{name: values[name] + delta for name in self.offset_parameter_names()}
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -194,7 +198,7 @@ class PowerLaw(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return ("offset", "coefficient")
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("offset",)
 
 
@@ -217,7 +221,7 @@ class Linear(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return ("offset", "slope")
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("offset",)
 
 
@@ -256,7 +260,7 @@ class Polynomial(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return tuple(self.parameters())
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("c0",)
 
 
@@ -279,7 +283,7 @@ class Logarithmic(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return ("offset", "coefficient")
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("offset",)
 
 
@@ -304,7 +308,7 @@ class Exponential(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return ("offset", "coefficient")
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("offset",)
 
 
@@ -325,7 +329,7 @@ class Constant(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return ("value",)
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return ("value",)
 
 
@@ -395,7 +399,7 @@ class PiecewiseLinear(CostForm):
     def cost_parameter_names(self) -> tuple[str, ...]:
         return tuple(self.parameters())
 
-    def _offset_parameter_names(self) -> tuple[str, ...]:
+    def offset_parameter_names(self) -> tuple[str, ...]:
         return tuple(self.parameters())
 
 

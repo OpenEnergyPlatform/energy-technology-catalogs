@@ -215,3 +215,13 @@ def test_form_from_parameters_errors():
 
 def test_forms_are_hashable():
     assert len({form for form in ALL_FORMS + ALL_FORMS}) == len(ALL_FORMS)
+
+
+def test_offset_parameter_names():
+    assert PowerLaw(1.0, 2.0, 3.0).offset_parameter_names() == ("offset",)
+    assert Polynomial((1.0, 2.0)).offset_parameter_names() == ("c0",)
+    assert Constant(1.0).offset_parameter_names() == ("value",)
+    assert PiecewiseLinear((1.0, 2.0), (5.0, 6.0)).offset_parameter_names() == (
+        "v0",
+        "v1",
+    )

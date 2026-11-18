@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import ast
 import csv
+import dataclasses
 import math
 import warnings
 from collections.abc import Mapping
@@ -36,7 +37,7 @@ from dataclasses import dataclass
 from enum import Enum
 from functools import lru_cache
 from importlib import resources
-from typing import Any
+from typing import Any, TypeVar
 
 import numpy as np
 
@@ -47,6 +48,9 @@ from energy_technology_catalogs.costs.forms import (
     PowerLaw,
     form_from_dict,
 )
+
+
+FunctionT = TypeVar("FunctionT", bound="CostFunction")
 
 
 class TechnologyType(Enum):
@@ -371,6 +375,40 @@ class CostFunction:
     def key(self) -> CostFunctionKey:
         """Identity of the function."""
         return CostFunctionKey(self.technology, self.source, self.investment_year)
+
+    # ------------------------------------------------------------------
+    # Derived functions
+    # ------------------------------------------------------------------
+
+    def scaled(self: FunctionT, factor: float) -> FunctionT:
+        """Return a function whose money values are ``factor`` times as large.
+
+        Scales the investment cost form and the fixed O&M form; shares, tax
+        rate, relative bounds, sizes and years are kept. Used for price
+        adjustment and proportional calibration. Subclasses extend it to
+        every further value in currency they hold.
+
+        :param factor: Dimensionless factor, > 0.
+        :return: New function of the same class.
+        :raises ValueError: If ``factor`` is not a positive finite number.
+        """
+        if not (math.isfinite(factor) and factor > 0):
+            raise ValueError(f"factor must be positive and finite, got {factor}.")
+        fixed_om = None if self.fixed_om is None else self.fixed_om.scaled(factor)
+        return dataclasses.replace(
+            self, form=self.form.scaled(factor), fixed_om=fixed_om
+        )
+
+    def with_form(self: FunctionT, form: CostForm) -> FunctionT:
+        """Return a function with another investment cost form.
+
+        All other fields are kept. Subclasses may refuse the replacement
+        where values they hold refer to the parameters of the old form.
+
+        :param form: New function form of the investment cost.
+        :return: New function of the same class.
+        """
+        return dataclasses.replace(self, form=form)
 
     # ------------------------------------------------------------------
     # Calculation

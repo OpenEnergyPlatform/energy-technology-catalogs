@@ -620,3 +620,22 @@ def test_finalize_cost_accepts_sample_arrays_for_a_scalar_size():
     assert gross.tolist() == pytest.approx((samples * 0.6).tolist())
     net = f._apply_tax_and_basis(gross, size, size, include_tax=False, specific=True)
     assert net.tolist() == pytest.approx((samples * 0.6 / 1.19).tolist())
+
+
+def test_scaled_scales_money_only():
+    f = make(fixed_om=Constant(12.0), uncertainty_lower=-0.1, uncertainty_upper=0.2)
+    g = f.scaled(1.1)
+    assert g.form == f.form.scaled(1.1)
+    assert g.fixed_om.value == pytest.approx(13.2)
+    assert dataclasses.replace(g, form=f.form, fixed_om=f.fixed_om) == f
+    assert make().scaled(2.0).fixed_om is None
+    for factor in (0.0, -1.0, float("nan"), float("inf")):
+        with pytest.raises(ValueError):
+            f.scaled(factor)
+
+
+def test_with_form_replaces_the_form_only():
+    f = make()
+    g = f.with_form(Linear(1.0, 2.0))
+    assert g.form == Linear(1.0, 2.0)
+    assert g.with_form(f.form) == f
