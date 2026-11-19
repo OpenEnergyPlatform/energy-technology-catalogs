@@ -479,8 +479,14 @@ def test_calibration_keeps_output_uncertainty(function):
 # Parity with the Uni Kassel cost function module v3.0.0
 # ----------------------------------------------------------------------
 
-PARITY_REL = 1e-8
-PARITY_ABS = 1e-9
+# The one-point methods are closed formulas. The other cases are solved
+# iteratively to the default tolerances of scipy.optimize.least_squares
+# (1e-8), so their parameters depend on the linear algebra kernel of the
+# machine at about 1e-7 relative; the cost values they give agree far better.
+POINT_REL = 1e-9
+SOLVER_PARAMETER_REL = 1e-5
+SOLVER_PARAMETER_ABS = 1e-5
+SOLVER_COST_REL = 1e-6
 
 
 def test_calibration_matches_reference(reference_data):
@@ -505,9 +511,23 @@ def test_calibration_matches_reference(reference_data):
                 )
         got = (out.form.offset, out.form.coefficient)
         expected = (case["summand"], case["coefficient"])
-        if got != pytest.approx(expected, rel=PARITY_REL, abs=PARITY_ABS):
-            mismatches.append((i, got, expected))
         assert out.form.exponent == original.form.exponent
+        if case["kind"] == "one_point":
+            if got != pytest.approx(expected, rel=POINT_REL, abs=1e-9):
+                mismatches.append((i, got, expected))
+            continue
+        if got != pytest.approx(
+            expected, rel=SOLVER_PARAMETER_REL, abs=SOLVER_PARAMETER_ABS
+        ):
+            mismatches.append((i, got, expected))
+        sizes = np.geomspace(max(original.size_min, 1e-3), original.size_max, 9)
+        reference_form = original.form.with_parameters(
+            offset=case["summand"], coefficient=case["coefficient"]
+        )
+        if out.form.evaluate(sizes) != pytest.approx(
+            reference_form.evaluate(sizes), rel=SOLVER_COST_REL
+        ):
+            mismatches.append((i, "cost values", got, expected))
     assert len(data["cases"]) == 168
     assert not mismatches, mismatches
 
