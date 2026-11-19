@@ -96,6 +96,8 @@ nav:
   - User Documentation:
     - Install:
       - user_documentation/install/index.md
+    - Cost functions:
+      - user_documentation/costs/index.md
     - Functions:
       - user_documentation/functions/index.md
     - Tests:

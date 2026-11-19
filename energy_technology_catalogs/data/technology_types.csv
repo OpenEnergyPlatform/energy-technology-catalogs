@@ -1,0 +1,37 @@
+# SPDX-FileCopyrightText: 2026 energy-technology-catalogs contributors <https://github.com/OpenEnergyPlatform/energy-technology-catalogs>
+# SPDX-License-Identifier: MIT
+technology_type;label_en;label_de;oeo_iri
+HEAT_PUMP;Heat pump;Wärmepumpe;
+HEAT_PUMP_1STAGE;Heat pump, single-stage;Wärmepumpe, einstufig;
+HEAT_PUMP_1STAGE_AIR_SOURCE;Air-source heat pump, single-stage;Luft-Wärmepumpe, einstufig;
+HEAT_PUMP_1STAGE_WATER_SOURCE;Water-source heat pump, single-stage;Wasser-Wärmepumpe, einstufig;
+HEAT_PUMP_1STAGE_GROUND_SOURCE;Ground-source heat pump, single-stage;Erdreich-Wärmepumpe, einstufig;
+HEAT_PUMP_2STAGE_AIR_SOURCE;Air-source heat pump, two-stage;Luft-Wärmepumpe, zweistufig;
+HEAT_PUMP_2STAGE_WATER_SOURCE;Water-source heat pump, two-stage;Wasser-Wärmepumpe, zweistufig;
+HEAT_PUMP_2STAGE_WASTE_HEAT_SOURCE;Waste-heat heat pump, two-stage;Abwärme-Wärmepumpe, zweistufig;
+HEAT_PUMP_2STAGE_WASTEWATER_SOURCE;Wastewater heat pump, two-stage;Abwasser-Wärmepumpe, zweistufig;
+HEAT_PUMP_ABSORPTION;Absorption heat pump;Absorptionswärmepumpe;
+THERMAL_STORAGE;Thermal energy storage;Wärmespeicher;
+PTES;Pit thermal energy storage;Erdbecken-Wärmespeicher;
+TTES;Tank thermal energy storage;Behälter-Wärmespeicher;
+TTES_SMALL;Tank thermal energy storage, small;Behälter-Wärmespeicher, klein;
+TTES_DHW;Domestic hot water storage tank;Trinkwarmwasserspeicher;
+ELECTRICAL_STORAGE;Electrical energy storage;Stromspeicher;
+SOLAR_THERMAL;Solar thermal collector;Solarthermie-Kollektor;
+SOLAR_THERMAL_FLAT_PLATE;Flat-plate solar thermal collector;Flachkollektor;
+SOLAR_THERMAL_EVACUATED_TUBE;Evacuated-tube solar thermal collector;Vakuumröhrenkollektor;
+BOILER;Boiler;Heizkessel;
+BIOMASS_BOILER;Biomass boiler;Biomassekessel;
+OIL_BOILER;Oil boiler;Ölkessel;
+GAS_BOILER;Gas boiler;Gaskessel;
+H2_BOILER;Hydrogen boiler;Wasserstoffkessel;
+ELECTRIC_BOILER;Electric boiler;Elektrokessel;
+ELECTRIC_HEATER;Electric heater;Elektroheizer;
+GEOTHERMAL_WELL;Geothermal well;Geothermiebohrung;
+CHP;Combined heat and power plant;Kraft-Wärme-Kopplungsanlage;
+WASTE_BOILER;Waste incineration boiler;Abfallverbrennungskessel;
+PV;Photovoltaic system;Photovoltaikanlage;
+WIND;Wind turbine;Windenergieanlage;
+CHILLER;Chiller;Kältemaschine;
+HEATING_SUBSTATION;Heating substation;Hausübergabestation;
+DHW_SUBSTATION;Domestic hot water substation;Trinkwarmwasserstation;

@@ -32,3 +32,10 @@ path = [".agents/skills/.gitkeep", ".claude/skills/.gitkeep"]
 precedence = "override"
 SPDX-FileCopyrightText = ["2026 Jonathan Amme <https://github.com/nesnoj> © Reiner Lemoine Institut", "super-repo <https://github.com/rl-institut/super-repo>"]
 SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "energy_technology_catalogs/data/destatis_epi_1949-2025.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "Statistisches Bundesamt (Destatis), 2025"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+SPDX-FileComment = "Erzeugerpreisindex gewerblicher Produkte (producer price index for industrial products), annual values 1949-2025. Source: Statistisches Bundesamt (Destatis), https://www.destatis.de, Data licence Germany - attribution - version 2.0"

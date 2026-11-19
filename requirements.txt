@@ -10,10 +10,14 @@ mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
+numpy
+openpyxl
+pandas
 pre-commit
 pytest
 pytest-cov
 ruff
+scipy
 tox
 twine
 uv
